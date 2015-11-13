@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "051F5E512ACD229DBC3C01D551547B99066FF4C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1D3EA68D2EA7B97C4897E2D12F1348599AFA9EB3" : 0,
+    "051F5E512ACD229DBC3C01D551547B99066FF4C0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "25045FB9-4BFF-41DB-BAE9-8F914373E67C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1D3EA68D2EA7B97C4897E2D12F1348599AFA9EB3" : "..",
+    "051F5E512ACD229DBC3C01D551547B99066FF4C0" : "Rubato\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Rubato",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Rubato\/Rubato.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:peterwashington\/Rubato.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "051F5E512ACD229DBC3C01D551547B99066FF4C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/sweep\/sweep-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D3EA68D2EA7B97C4897E2D12F1348599AFA9EB3"
+    }
+  ]
+}
