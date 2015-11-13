@@ -89,7 +89,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zkg-ll-3wg">
-                                <rect key="frame" x="102" y="222" width="152" height="128"/>
+                                <rect key="frame" x="111" y="222" width="152" height="128"/>
                                 <animations/>
                             </imageView>
                         </subviews>
