@@ -76,10 +76,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="65"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zkg-ll-3wg">
-                                <rect key="frame" x="111" y="221" width="152" height="128"/>
-                                <animations/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrL-he-tJn">
                                 <rect key="frame" x="207" y="370" width="148" height="21"/>
                                 <animations/>
@@ -92,6 +88,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zkg-ll-3wg">
+                                <rect key="frame" x="102" y="222" width="152" height="128"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                     </view>
