@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C22B4381BFB127800949702 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22B4371BFB127800949702 /* MenuController.swift */; };
 		2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */ = {isa = PBXBuildFile; fileRef = 2CD188C41BFBE7B800857A47 /* SupportingFiles */; };
+		2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */; };
 		33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */; };
 		33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F81BF0205E00E6A3F1 /* ViewController.swift */; };
 		33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D096FA1BF0205E00E6A3F1 /* Main.storyboard */; };
@@ -39,6 +40,9 @@
 /* Begin PBXFileReference section */
 		2C22B4371BFB127800949702 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		2CD188C41BFBE7B800857A47 /* SupportingFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportingFiles; sourceTree = "<group>"; };
+		2CD188CF1BFBEC4700857A47 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Rubato-Bridging-Header.h"; path = "SWRevealViewController/Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
+		2CD188D01BFBEC4700857A47 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		33D096F31BF0205E00E6A3F1 /* Rubato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D096F81BF0205E00E6A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CD188CE1BFBEC0F00857A47 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2CD188D01BFBEC4700857A47 /* SWRevealViewController.h */,
+				2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */,
+				2CD188CF1BFBEC4700857A47 /* Rubato-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
 		33D096EA1BF0205E00E6A3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +117,7 @@
 		33D096F51BF0205E00E6A3F1 /* Rubato */ = {
 			isa = PBXGroup;
 			children = (
+				2CD188CE1BFBEC0F00857A47 /* SWRevealViewController */,
 				2CD188C41BFBE7B800857A47 /* SupportingFiles */,
 				2C22B4371BFB127800949702 /* MenuController.swift */,
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
@@ -269,6 +284,7 @@
 			files = (
 				2C22B4381BFB127800949702 /* MenuController.swift in Sources */,
 				33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */,
+				2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */,
 				33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */,
 				33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Rubato/Info.plist;
@@ -419,6 +436,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.Rubato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rubato/Rubato-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -426,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Rubato/Info.plist;
@@ -433,6 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.Rubato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rubato/Rubato-Bridging-Header.h";
 			};
 			name = Release;
 		};
