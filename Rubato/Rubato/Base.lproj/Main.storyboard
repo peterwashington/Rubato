@@ -181,6 +181,9 @@
                     </tableView>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="V16-Kv-eDw" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="JvS-i9-lNh"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12l-Dg-huF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -333,7 +336,6 @@
                     </navigationBar>
                     <connections>
                         <segue destination="P0W-wl-xwd" kind="relationship" relationship="rootViewController" id="znr-cF-UV8"/>
-                        <segue destination="6UP-iR-rC9" kind="custom" customClass="SWRevealViewControllerSegueSetController" id="y8M-aw-nhC"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63l-0U-uth" userLabel="First Responder" sceneMemberID="firstResponder"/>
