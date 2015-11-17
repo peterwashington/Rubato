@@ -39,9 +39,9 @@
 
 /* Begin PBXFileReference section */
 		2C22B4371BFB127800949702 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		2C22B4391BFB221200949702 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../../../Downloads/lato/Lato-Light.ttf"; sourceTree = "<group>"; };
-		2C22B43B1BFB249600949702 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../../../Downloads/lato/Lato-Regular.ttf"; sourceTree = "<group>"; };
-		2C22B43D1BFB24AB00949702 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Medium.ttf"; path = "../../../Downloads/lato/Lato-Medium.ttf"; sourceTree = "<group>"; };
+		2C22B4391BFB221200949702 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "/Users/Parker/Rubato/Rubato/Rubato/Lato-Light.ttf"; sourceTree = "<absolute>"; };
+		2C22B43B1BFB249600949702 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "/Users/Parker/Rubato/Rubato/Rubato/Lato-Regular.ttf"; sourceTree = "<absolute>"; };
+		2C22B43D1BFB24AB00949702 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Medium.ttf"; path = "/Users/Parker/Rubato/Rubato/Rubato/Lato-Medium.ttf"; sourceTree = "<absolute>"; };
 		33D096F31BF0205E00E6A3F1 /* Rubato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D096F81BF0205E00E6A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
