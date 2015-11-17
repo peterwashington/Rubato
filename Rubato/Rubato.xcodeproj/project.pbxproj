@@ -12,7 +12,7 @@
 		33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F81BF0205E00E6A3F1 /* ViewController.swift */; };
 		33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D096FA1BF0205E00E6A3F1 /* Main.storyboard */; };
 		33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33D096FD1BF0205E00E6A3F1 /* Rubato.xcdatamodeld */; };
-		33D097011BF0205E00E6A3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D097001BF0205E00E6A3F1 /* Assets.xcassets */; };
+		33D097011BF0205E00E6A3F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D097001BF0205E00E6A3F1 /* Images.xcassets */; };
 		33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */; };
 		33D0970F1BF0205E00E6A3F1 /* RubatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0970E1BF0205E00E6A3F1 /* RubatoTests.swift */; };
 		33D0971A1BF0205E00E6A3F1 /* RubatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */; };
@@ -42,7 +42,7 @@
 		33D096F81BF0205E00E6A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33D096FB1BF0205E00E6A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33D096FE1BF0205E00E6A3F1 /* Rubato.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rubato.xcdatamodel; sourceTree = "<group>"; };
-		33D097001BF0205E00E6A3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33D097001BF0205E00E6A3F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33D097031BF0205E00E6A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D097051BF0205E00E6A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33D0970A1BF0205E00E6A3F1 /* RubatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +105,7 @@
 				2C8A19E01BF29A1D00828E51 /* HomeViewController.swift */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
-				33D097001BF0205E00E6A3F1 /* Assets.xcassets */,
+				33D097001BF0205E00E6A3F1 /* Images.xcassets */,
 				33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */,
 				33D097051BF0205E00E6A3F1 /* Info.plist */,
 				33D096FD1BF0205E00E6A3F1 /* Rubato.xcdatamodeld */,
@@ -237,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */,
-				33D097011BF0205E00E6A3F1 /* Assets.xcassets in Resources */,
+				33D097011BF0205E00E6A3F1 /* Images.xcassets in Resources */,
 				33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
