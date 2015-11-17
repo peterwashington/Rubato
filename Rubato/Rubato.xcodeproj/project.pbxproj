@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C22B4381BFB127800949702 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22B4371BFB127800949702 /* MenuController.swift */; };
-		2C22B43C1BFB249600949702 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C22B43B1BFB249600949702 /* Lato-Regular.ttf */; };
-		2C22B43E1BFB24AB00949702 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C22B43D1BFB24AB00949702 /* Lato-Medium.ttf */; };
+		2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */ = {isa = PBXBuildFile; fileRef = 2CD188C41BFBE7B800857A47 /* SupportingFiles */; };
 		33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */; };
 		33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F81BF0205E00E6A3F1 /* ViewController.swift */; };
 		33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D096FA1BF0205E00E6A3F1 /* Main.storyboard */; };
@@ -39,9 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2C22B4371BFB127800949702 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		2C22B4391BFB221200949702 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "/Users/Parker/Rubato/Rubato/Rubato/Lato-Light.ttf"; sourceTree = "<absolute>"; };
-		2C22B43B1BFB249600949702 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "/Users/Parker/Rubato/Rubato/Rubato/Lato-Regular.ttf"; sourceTree = "<absolute>"; };
-		2C22B43D1BFB24AB00949702 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Medium.ttf"; path = "/Users/Parker/Rubato/Rubato/Rubato/Lato-Medium.ttf"; sourceTree = "<absolute>"; };
+		2CD188C41BFBE7B800857A47 /* SupportingFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportingFiles; sourceTree = "<group>"; };
 		33D096F31BF0205E00E6A3F1 /* Rubato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D096F81BF0205E00E6A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,11 +103,9 @@
 		33D096F51BF0205E00E6A3F1 /* Rubato */ = {
 			isa = PBXGroup;
 			children = (
-				2C22B4391BFB221200949702 /* Lato-Light.ttf */,
+				2CD188C41BFBE7B800857A47 /* SupportingFiles */,
 				2C22B4371BFB127800949702 /* MenuController.swift */,
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
-				2C22B43D1BFB24AB00949702 /* Lato-Medium.ttf */,
-				2C22B43B1BFB249600949702 /* Lato-Regular.ttf */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
 				33D097001BF0205E00E6A3F1 /* Images.xcassets */,
@@ -244,11 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C22B43E1BFB24AB00949702 /* Lato-Medium.ttf in Resources */,
+				2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */,
 				33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */,
 				33D097011BF0205E00E6A3F1 /* Images.xcassets in Resources */,
 				33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */,
-				2C22B43C1BFB249600949702 /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
