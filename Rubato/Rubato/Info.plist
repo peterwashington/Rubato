@@ -7,6 +7,9 @@
 		<string>Lato-Light.ttf</string>
 		<string>Lato-Medium.ttf</string>
 		<string>Lato-Regular.ttf</string>
+		<string>Knul-Light.otf</string>
+		<string>Knul-Medium.otf</string>
+		<string>Knul-Regular.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
