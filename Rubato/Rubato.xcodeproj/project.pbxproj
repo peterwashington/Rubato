@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C8A19E11BF29A1D00828E51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A19E01BF29A1D00828E51 /* HomeViewController.swift */; };
+		2C22B4381BFB127800949702 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22B4371BFB127800949702 /* MenuController.swift */; };
 		33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */; };
 		33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F81BF0205E00E6A3F1 /* ViewController.swift */; };
 		33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D096FA1BF0205E00E6A3F1 /* Main.storyboard */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C8A19E01BF29A1D00828E51 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2C22B4371BFB127800949702 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		33D096F31BF0205E00E6A3F1 /* Rubato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D096F81BF0205E00E6A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 		33D096F51BF0205E00E6A3F1 /* Rubato */ = {
 			isa = PBXGroup;
 			children = (
+				2C22B4371BFB127800949702 /* MenuController.swift */,
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
-				2C8A19E01BF29A1D00828E51 /* HomeViewController.swift */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
 				33D097001BF0205E00E6A3F1 /* Images.xcassets */,
@@ -263,10 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C22B4381BFB127800949702 /* MenuController.swift in Sources */,
 				33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */,
 				33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */,
 				33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */,
-				2C8A19E11BF29A1D00828E51 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
