@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     
     let kClientID = "476f7181e13c44cfbddfcc4a0be318c6"
     let kCallbackURL = "rubato://callback"
+    
+    var player: SPTAudioStreamingController?
+    var spotifyAuthenticator = SPTAuth.defaultInstance()
 
 
     @IBOutlet weak var loginButton: UIButton!
@@ -24,9 +27,22 @@ class ViewController: UIViewController {
 =======
 
     @IBAction func loginWithSpotify(sender: AnyObject) {
+<<<<<<< HEAD
         let auth = SPTAuth.defaultInstance()
 >>>>>>> 895cbcfdefde64cab6be7b787810ef7134195123
+=======
+        
+        spotifyAuthenticator.clientID = kClientID
+        spotifyAuthenticator.redirectURL = NSURL(string: kCallbackURL)
+        
+        UIApplication.sharedApplication().openURL(spotifyAuthenticator.loginURL)
+        
+>>>>>>> 9179f4ef3290a1c5c0fda48e2583a19bc4aaa776
     }
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

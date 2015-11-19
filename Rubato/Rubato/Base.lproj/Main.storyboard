@@ -5,9 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <customFonts key="customFonts">
-        <mutableArray key="Knul-Medium.otf">
-            <string>Knul-Medium</string>
-        </mutableArray>
         <mutableArray key="Knul-Regular.otf">
             <string>Knul</string>
             <string>Knul</string>
@@ -30,24 +27,12 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KuA-PY-kKG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="675"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Spotify Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oxy-77-wYg">
-                                        <rect key="frame" x="90" y="352" width="196" height="30"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Spotify Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T6J-DP-WZK">
-                                        <rect key="frame" x="90" y="294" width="196" height="30"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rubato Logo &amp; text" translatesAutoresizingMaskIntoConstraints="NO" id="IsF-6h-CPu">
                                         <rect key="frame" x="14" y="99" width="347" height="254"/>
                                         <animations/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ete-Xg-s2W" userLabel="button">
-                                        <rect key="frame" x="73" y="414" width="228" height="52"/>
+                                        <rect key="frame" x="73" y="367" width="228" height="52"/>
                                         <animations/>
                                         <state key="normal" image="log_in-mobile"/>
                                         <connections>
@@ -59,13 +44,6 @@
 >>>>>>> 895cbcfdefde64cab6be7b787810ef7134195123
                                         </connections>
                                     </button>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invalid Login Credentials!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OR-Q4-3yr" userLabel="errorMessage">
-                                        <rect key="frame" x="92" y="259" width="191" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -77,7 +55,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="button" destination="ete-Xg-s2W" id="fAW-vn-zrW"/>
-                        <outlet property="errorMessage" destination="9OR-Q4-3yr" id="pab-yG-KI8"/>
                         <outlet property="loginButton" destination="ete-Xg-s2W" id="8Sf-2b-B7N"/>
                     </connections>
                 </viewController>
