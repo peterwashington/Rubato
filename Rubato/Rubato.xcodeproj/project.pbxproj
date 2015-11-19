@@ -18,6 +18,7 @@
 		33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */; };
 		33D0970F1BF0205E00E6A3F1 /* RubatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0970E1BF0205E00E6A3F1 /* RubatoTests.swift */; };
 		33D0971A1BF0205E00E6A3F1 /* RubatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */; };
+		3F3952141BFD7A2C0035F5EE /* CreateSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		33D097151BF0205E00E6A3F1 /* RubatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubatoUITests.swift; sourceTree = "<group>"; };
 		33D0971B1BF0205E00E6A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSessionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
+				3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */,
 				33D097001BF0205E00E6A3F1 /* Images.xcassets */,
 				33D097051BF0205E00E6A3F1 /* Info.plist */,
 				33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */,
@@ -286,6 +289,7 @@
 				33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */,
 				2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */,
 				33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */,
+				3F3952141BFD7A2C0035F5EE /* CreateSessionController.swift in Sources */,
 				33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

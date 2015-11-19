@@ -243,10 +243,10 @@
             </objects>
             <point key="canvasLocation" x="1426.5" y="540.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Session Controller-->
         <scene sceneID="gHf-ni-be9">
             <objects>
-                <viewController id="gwB-ev-8x5" sceneMemberID="viewController">
+                <viewController id="gwB-ev-8x5" customClass="CreateSessionController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I6k-Ts-8BS"/>
                         <viewControllerLayoutGuide type="bottom" id="Ndx-EB-KEm"/>
