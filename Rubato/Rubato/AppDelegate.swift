@@ -23,7 +23,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if SPTAuth.defaultInstance().canHandleURL(url) {
             
             SPTAuth.defaultInstance().handleAuthCallbackWithTriggeredAuthURL(url, callback: {(error: NSError!, session: SPTSession!) -> Void in
-                    print("SUCCESSFULLY LOGGED IN")
+                if (error != nil) {
+                    print("AUTHENTICATION ERROR!!!")
+                }
+                print("SUCCESSFULLY LOGGED IN")
+                
+                let userDefaults = NSUserDefaults.standardUserDefaults()
+                let sessionData = NSKeyedArchiver.archivedDataWithRootObject(session)
+                
+                userDefaults.setObject(sessionData, forKey: "SpotifySession")
+                userDefaults.synchronize()
             })
             
         }
