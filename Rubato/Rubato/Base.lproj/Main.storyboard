@@ -25,32 +25,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KuA-PY-kKG">
-                                <rect key="frame" x="-8" y="-8" width="391" height="675"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="675"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64K-fa-JwB">
-                                        <rect key="frame" x="156" y="501" width="78" height="30"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <state key="normal" title="Enter">
-                                            <color key="titleColor" red="0.25378734114467189" green="0.72156862745098038" blue="0.1092609518935916" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oxy-77-wYg">
-                                        <rect key="frame" x="97" y="411" width="196" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Spotify Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oxy-77-wYg">
+                                        <rect key="frame" x="90" y="352" width="196" height="30"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T6J-DP-WZK">
-                                        <rect key="frame" x="97" y="357" width="196" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Spotify Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T6J-DP-WZK">
+                                        <rect key="frame" x="90" y="294" width="196" height="30"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rubato Logo &amp; text" translatesAutoresizingMaskIntoConstraints="NO" id="IsF-6h-CPu">
-                                        <rect key="frame" x="18" y="141" width="352" height="208"/>
+                                        <rect key="frame" x="14" y="99" width="347" height="254"/>
                                         <animations/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ete-Xg-s2W">
+                                        <rect key="frame" x="73" y="414" width="228" height="52"/>
+                                        <animations/>
+                                        <state key="normal" image="log_in-mobile"/>
+                                    </button>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -63,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1081.5" y="-507.5"/>
+            <point key="canvasLocation" x="-1084.5" y="-490.5"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="rhe-8j-o5E">
@@ -81,10 +78,14 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="6UP-iR-rC9" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="AAN-wD-8By"/>
+                        <segue destination="Pw9-8o-eYC" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="R1R-Wl-ABd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ja-7n-6Ep" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-477" y="-507"/>
+            <point key="canvasLocation" x="-509.5" y="-490.5"/>
         </scene>
         <!--Menu Controller-->
         <scene sceneID="vjy-4A-trX">
@@ -181,9 +182,6 @@
                     </tableView>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <segue destination="V16-Kv-eDw" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="JvS-i9-lNh"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12l-Dg-huF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -219,7 +217,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3wn-yg-7bQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1601" y="-490"/>
+            <point key="canvasLocation" x="1426.5" y="-1113.5"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="xfL-Z5-Pge">
@@ -251,7 +249,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U8n-8D-30M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1617" y="353"/>
+            <point key="canvasLocation" x="1426.5" y="-319.5"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="cHP-DS-OAd">
@@ -283,7 +281,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NjL-eA-THs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1621" y="1121"/>
+            <point key="canvasLocation" x="1426.5" y="540.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="J6t-4x-b0a">
@@ -302,7 +300,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XMt-2o-QzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="801" y="1121"/>
+            <point key="canvasLocation" x="677.5" y="540.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RkB-Iw-8Y4">
@@ -321,7 +319,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1uE-rd-gNE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="797" y="353"/>
+            <point key="canvasLocation" x="677.5" y="-319.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TGR-zu-6Jg">
@@ -340,10 +338,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63l-0U-uth" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="777.5" y="-507.5"/>
+            <point key="canvasLocation" x="677.5" y="-1113.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Rubato Logo &amp; text" width="3227" height="1941"/>
+        <image name="log_in-mobile" width="488" height="88"/>
     </resources>
 </document>
