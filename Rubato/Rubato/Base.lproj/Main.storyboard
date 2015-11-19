@@ -252,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaT-9N-QLM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1426.5" y="-1143.5"/>
+            <point key="canvasLocation" x="1394.5" y="-1263.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="J6t-4x-b0a">
@@ -319,6 +319,6 @@
         <image name="log_in-mobile" width="488" height="88"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="P9E-0d-ACZ"/>
+        <segue reference="iQW-If-hqB"/>
     </inferredMetricsTieBreakers>
 </document>

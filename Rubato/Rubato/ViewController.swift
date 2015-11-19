@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     
     var spotifyAuthenticator = SPTAuth.defaultInstance()
     
-    @IBOutlet weak var errorMessage: UILabel!
     @IBOutlet weak var button: UIButton!
 
 
@@ -29,13 +28,17 @@ class ViewController: UIViewController {
     }
     
 
-    
+    func updateAfterFirstLogin() {
+        button.hidden = true
+    }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateAfterFirstLogin", name: "loginSuccessful", object: nil)
         
     }
 
