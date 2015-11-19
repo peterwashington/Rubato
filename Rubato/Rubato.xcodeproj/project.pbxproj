@@ -10,6 +10,7 @@
 		2C22B4381BFB127800949702 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22B4371BFB127800949702 /* MenuController.swift */; };
 		2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */ = {isa = PBXBuildFile; fileRef = 2CD188C41BFBE7B800857A47 /* SupportingFiles */; };
 		2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */; };
+		2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD40C651BFE792500C3A3BE /* HomeController.swift */; };
 		33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */; };
 		33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F81BF0205E00E6A3F1 /* ViewController.swift */; };
 		33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D096FA1BF0205E00E6A3F1 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		2CD188C41BFBE7B800857A47 /* SupportingFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportingFiles; sourceTree = "<group>"; };
 		2CD188D01BFBEC4700857A47 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
 		2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		2CD40C651BFE792500C3A3BE /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
 		33D096F31BF0205E00E6A3F1 /* Rubato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		33D096F51BF0205E00E6A3F1 /* Rubato */ = {
 			isa = PBXGroup;
 			children = (
+				2CD40C651BFE792500C3A3BE /* HomeController.swift */,
 				33ED9D721BFD8C8400BF5AD9 /* Spotify.framework */,
 				2CD188CE1BFBEC0F00857A47 /* SWRevealViewController */,
 				2CD188C41BFBE7B800857A47 /* SupportingFiles */,
@@ -299,6 +302,7 @@
 			files = (
 				2C22B4381BFB127800949702 /* MenuController.swift in Sources */,
 				33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */,
+				2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */,
 				2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */,
 				33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */,
 				3F3952141BFD7A2C0035F5EE /* CreateSessionController.swift in Sources */,
