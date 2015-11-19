@@ -98,6 +98,7 @@
 		2CD188CE1BFBEC0F00857A47 /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
+				334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */,
 				2CD188D01BFBEC4700857A47 /* SWRevealViewController.h */,
 				2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */,
 			);
@@ -134,7 +135,6 @@
 				2CD188C41BFBE7B800857A47 /* SupportingFiles */,
 				2C22B4371BFB127800949702 /* MenuController.swift */,
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
-				334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
 				3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */,

@@ -36,9 +36,8 @@
                                         <animations/>
                                         <state key="normal" image="log_in-mobile"/>
                                         <connections>
-                                            <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XEm-Qi-FT4"/>
                                             <action selector="loginWithSpotify:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ij-aY-s1r"/>
-                                            <segue destination="V16-Kv-eDw" kind="presentation" id="rGu-VC-yQX"/>
+                                            <segue destination="V16-Kv-eDw" kind="presentation" id="d2B-L0-0Fd"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -49,10 +48,10 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="button" destination="ete-Xg-s2W" id="fAW-vn-zrW"/>
-                        <outlet property="loginButton" destination="ete-Xg-s2W" id="8Sf-2b-B7N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -62,7 +61,7 @@
         <!--Reveal View Controller-->
         <scene sceneID="rhe-8j-o5E">
             <objects>
-                <viewController storyboardIdentifier="centralController" id="V16-Kv-eDw" customClass="SWRevealViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="centralController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="V16-Kv-eDw" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IiU-kJ-M7d"/>
                         <viewControllerLayoutGuide type="bottom" id="8oy-IE-GuZ"/>
@@ -77,7 +76,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <segue destination="6UP-iR-rC9" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="AAN-wD-8By"/>
-                        <segue destination="Pw9-8o-eYC" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="R1R-Wl-ABd"/>
+                        <segue destination="41x-8Z-XEo" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="iQW-If-hqB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ja-7n-6Ep" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -179,6 +178,9 @@
                     </tableView>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="41x-8Z-XEo" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="P9E-0d-ACZ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12l-Dg-huF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -229,24 +231,28 @@
         <!--Create Session Controller-->
         <scene sceneID="gHf-ni-be9">
             <objects>
-                <viewController storyboardIdentifier="first" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gwB-ev-8x5" customClass="CreateSessionController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="first" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gwB-ev-8x5" userLabel="Create Session Controller" customClass="CreateSessionController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="I6k-Ts-8BS"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ndx-EB-KEm"/>
+                        <viewControllerLayoutGuide type="top" id="aIT-L5-c5l"/>
+                        <viewControllerLayoutGuide type="bottom" id="AoG-Sb-Qcg"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="EH8-zH-bHv">
+                    <view key="view" contentMode="scaleToFill" id="9u9-L8-h0b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="VXX-96-6GG"/>
+                    <navigationItem key="navigationItem" title="Title" id="kti-k5-Pnq" userLabel="Create Session Controller">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="QsT-rK-7Xe" userLabel="Home"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="homeButton" destination="QsT-rK-7Xe" id="Gee-km-sl9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaT-9N-QLM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1412.5" y="-1113.5"/>
+            <point key="canvasLocation" x="1426.5" y="-1143.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="J6t-4x-b0a">
@@ -287,27 +293,32 @@
             <point key="canvasLocation" x="677.5" y="-319.5"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="TGR-zu-6Jg">
+        <scene sceneID="khI-KO-oJq">
             <objects>
-                <navigationController id="Pw9-8o-eYC" sceneMemberID="viewController">
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="41x-8Z-XEo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="T9w-P5-dtL"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="86v-Hl-I5b">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sRU-9m-eRD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
                     </navigationBar>
+                    <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="gwB-ev-8x5" kind="relationship" relationship="rootViewController" id="W50-WU-0UA"/>
+                        <segue destination="gwB-ev-8x5" kind="relationship" relationship="rootViewController" id="I7o-Oe-qyQ"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="63l-0U-uth" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="om5-uQ-VkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="677.5" y="-1133.5"/>
+            <point key="canvasLocation" x="649.5" y="-1135.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Rubato Logo &amp; text" width="3227" height="1941"/>
         <image name="log_in-mobile" width="488" height="88"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="P9E-0d-ACZ"/>
+    </inferredMetricsTieBreakers>
 </document>
