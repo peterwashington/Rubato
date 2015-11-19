@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     let kClientID = "476f7181e13c44cfbddfcc4a0be318c6"
     let kCallbackURL = "rubato://callback"
     
-    var player: SPTAudioStreamingController?
     var spotifyAuthenticator = SPTAuth.defaultInstance()
     
     @IBOutlet weak var errorMessage: UILabel!
@@ -21,9 +20,6 @@ class ViewController: UIViewController {
 
 
     @IBAction func loginWithSpotify(sender: AnyObject) {
-
-        let auth = SPTAuth.defaultInstance()
-
         
         spotifyAuthenticator.clientID = kClientID
         spotifyAuthenticator.redirectURL = NSURL(string: kCallbackURL)

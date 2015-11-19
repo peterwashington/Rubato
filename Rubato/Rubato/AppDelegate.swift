@@ -11,10 +11,27 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    let kClientID = "476f7181e13c44cfbddfcc4a0be318c6"
+    let kCallbackURL = "rubato://callback"
 
     var window: UIWindow?
-
-
+    
+    
+    // Spotify callback
+    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
+        if SPTAuth.defaultInstance().canHandleURL(url) {
+            
+            SPTAuth.defaultInstance().handleAuthCallbackWithTriggeredAuthURL(url, callback: {(error: NSError!, session: SPTSession!) -> Void in
+                    print("SUCCESSFULLY LOGGED IN")
+            })
+            
+        }
+        
+        return true
+    }
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
