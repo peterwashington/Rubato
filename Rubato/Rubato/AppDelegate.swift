@@ -12,10 +12,32 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
+    var session:SPTSession!
+    var player:SPTAudioStreamingController?
     let kClientID = "476f7181e13c44cfbddfcc4a0be318c6"
     let kCallbackURL = "rubato://callback"
 
     var window: UIWindow?
+    
+    
+    
+    // Function to play a Spotify song using session.
+    func playUsingSession(sessionObj:SPTSession!) {
+        if self.player == nil {
+            self.player = SPTAudioStreamingController(clientId: kClientID)
+        }
+        
+        self.player?.playURI(NSURL(string: "spotify:track:58s6EuEYJdlb0kO7awm3Vp"), callback: nil)
+        
+        self.player?.loginWithSession(sessionObj, callback: { (error:NSError!) -> Void in
+            if error != nil {
+                print("ERROR PLAYING \(error)")
+                return
+            }
+            
+            
+        })
+    }
     
     
     // Spotify callback
@@ -28,11 +50,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
                 print("SUCCESSFULLY LOGGED IN")
                 
-                let userDefaults = NSUserDefaults.standardUserDefaults()
-                let sessionData = NSKeyedArchiver.archivedDataWithRootObject(session)
+                print(session.isValid())
                 
-                userDefaults.setObject(sessionData, forKey: "SpotifySession")
-                userDefaults.synchronize()
+                self.playUsingSession(session)
+                
+//                let userDefaults = NSUserDefaults.standardUserDefaults()
+//                let sessionData = NSKeyedArchiver.archivedDataWithRootObject(session)
+//                
+//                userDefaults.setObject(sessionData, forKey: "SpotifySession")
+//                userDefaults.synchronize()
             })
             
         }
