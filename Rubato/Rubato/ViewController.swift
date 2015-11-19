@@ -9,17 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let kClientID = "476f7181e13c44cfbddfcc4a0be318c6"
+    let kCallbackURL = "rubato://callback"
 
 
+    @IBOutlet weak var loginButton: UIButton!
     
     @IBOutlet weak var errorMessage: UILabel!
     @IBOutlet weak var button: UIButton!
 
+    @IBAction func loginWithSpotify(sender: AnyObject) {
+        let auth = SPTAuth.defaultInstance()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // Test commit from Peter
     }
 
     override func didReceiveMemoryWarning() {

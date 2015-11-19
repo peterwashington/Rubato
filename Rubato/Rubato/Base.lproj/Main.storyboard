@@ -50,6 +50,9 @@
                                         <rect key="frame" x="73" y="414" width="228" height="52"/>
                                         <animations/>
                                         <state key="normal" image="log_in-mobile"/>
+                                        <connections>
+                                            <action selector="loginWithSpotify:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ij-aY-s1r"/>
+                                        </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invalid Login Credentials!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OR-Q4-3yr" userLabel="errorMessage">
                                         <rect key="frame" x="92" y="259" width="191" height="21"/>
@@ -70,6 +73,7 @@
                     <connections>
                         <outlet property="button" destination="ete-Xg-s2W" id="fAW-vn-zrW"/>
                         <outlet property="errorMessage" destination="9OR-Q4-3yr" id="pab-yG-KI8"/>
+                        <outlet property="loginButton" destination="ete-Xg-s2W" id="8Sf-2b-B7N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
