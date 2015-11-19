@@ -21,23 +21,22 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var errorMessage: UILabel!
     @IBOutlet weak var button: UIButton!
-<<<<<<< HEAD
+
     @IBAction func buttonClicked(sender: AnyObject) {
         //Authenticate with Spotify SDK
-=======
+    }
 
     @IBAction func loginWithSpotify(sender: AnyObject) {
-<<<<<<< HEAD
+
         let auth = SPTAuth.defaultInstance()
->>>>>>> 895cbcfdefde64cab6be7b787810ef7134195123
-=======
+
         
         spotifyAuthenticator.clientID = kClientID
         spotifyAuthenticator.redirectURL = NSURL(string: kCallbackURL)
         
         UIApplication.sharedApplication().openURL(spotifyAuthenticator.loginURL)
         
->>>>>>> 9179f4ef3290a1c5c0fda48e2583a19bc4aaa776
+
     }
     
     
