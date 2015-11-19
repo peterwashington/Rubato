@@ -15,16 +15,10 @@ class ViewController: UIViewController {
     
     var player: SPTAudioStreamingController?
     var spotifyAuthenticator = SPTAuth.defaultInstance()
-
-
-    @IBOutlet weak var loginButton: UIButton!
     
     @IBOutlet weak var errorMessage: UILabel!
     @IBOutlet weak var button: UIButton!
 
-    @IBAction func buttonClicked(sender: AnyObject) {
-        //Authenticate with Spotify SDK
-    }
 
     @IBAction func loginWithSpotify(sender: AnyObject) {
 
@@ -36,9 +30,9 @@ class ViewController: UIViewController {
         
         UIApplication.sharedApplication().openURL(spotifyAuthenticator.loginURL)
         
-
     }
     
+
     
     
     
