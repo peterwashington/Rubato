@@ -18,6 +18,9 @@
 		33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */; };
 		33D0970F1BF0205E00E6A3F1 /* RubatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0970E1BF0205E00E6A3F1 /* RubatoTests.swift */; };
 		33D0971A1BF0205E00E6A3F1 /* RubatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */; };
+		33ED9D731BFD8C8400BF5AD9 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED9D721BFD8C8400BF5AD9 /* Spotify.framework */; };
+		33ED9D751BFD8F0F00BF5AD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED9D741BFD8F0F00BF5AD9 /* AVFoundation.framework */; };
+		33ED9D771BFD8F2900BF5AD9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED9D761BFD8F2900BF5AD9 /* SystemConfiguration.framework */; };
 		3F3952141BFD7A2C0035F5EE /* CreateSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,9 +44,9 @@
 /* Begin PBXFileReference section */
 		2C22B4371BFB127800949702 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		2CD188C41BFBE7B800857A47 /* SupportingFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportingFiles; sourceTree = "<group>"; };
-		2CD188CF1BFBEC4700857A47 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Rubato-Bridging-Header.h"; path = "SWRevealViewController/Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
 		2CD188D01BFBEC4700857A47 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
 		2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
 		33D096F31BF0205E00E6A3F1 /* Rubato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D096F81BF0205E00E6A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,9 @@
 		33D097151BF0205E00E6A3F1 /* RubatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubatoUITests.swift; sourceTree = "<group>"; };
 		33D0971B1BF0205E00E6A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33ED9D721BFD8C8400BF5AD9 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		33ED9D741BFD8F0F00BF5AD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		33ED9D761BFD8F2900BF5AD9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSessionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33ED9D771BFD8F2900BF5AD9 /* SystemConfiguration.framework in Frameworks */,
+				33ED9D751BFD8F0F00BF5AD9 /* AVFoundation.framework in Frameworks */,
+				33ED9D731BFD8C8400BF5AD9 /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +100,6 @@
 			children = (
 				2CD188D01BFBEC4700857A47 /* SWRevealViewController.h */,
 				2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */,
-				2CD188CF1BFBEC4700857A47 /* Rubato-Bridging-Header.h */,
 			);
 			name = SWRevealViewController;
 			sourceTree = "<group>";
@@ -99,6 +107,8 @@
 		33D096EA1BF0205E00E6A3F1 = {
 			isa = PBXGroup;
 			children = (
+				33ED9D761BFD8F2900BF5AD9 /* SystemConfiguration.framework */,
+				33ED9D741BFD8F0F00BF5AD9 /* AVFoundation.framework */,
 				33D096F51BF0205E00E6A3F1 /* Rubato */,
 				33D0970D1BF0205E00E6A3F1 /* RubatoTests */,
 				33D097181BF0205E00E6A3F1 /* RubatoUITests */,
@@ -119,10 +129,12 @@
 		33D096F51BF0205E00E6A3F1 /* Rubato */ = {
 			isa = PBXGroup;
 			children = (
+				33ED9D721BFD8C8400BF5AD9 /* Spotify.framework */,
 				2CD188CE1BFBEC0F00857A47 /* SWRevealViewController */,
 				2CD188C41BFBE7B800857A47 /* SupportingFiles */,
 				2C22B4371BFB127800949702 /* MenuController.swift */,
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
+				334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
 				3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */,
@@ -435,8 +447,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rubato",
+				);
 				INFOPLIST_FILE = Rubato/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.Rubato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -452,8 +469,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rubato",
+				);
 				INFOPLIST_FILE = Rubato/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.Rubato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
