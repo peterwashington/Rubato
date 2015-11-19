@@ -14,7 +14,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var errorMessage: UILabel!
     @IBOutlet weak var button: UIButton!
-
+    @IBAction func buttonClicked(sender: AnyObject) {
+        //Authenticate with Spotify SDK
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

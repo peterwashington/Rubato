@@ -50,6 +50,10 @@
                                         <rect key="frame" x="73" y="414" width="228" height="52"/>
                                         <animations/>
                                         <state key="normal" image="log_in-mobile"/>
+                                        <connections>
+                                            <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XEm-Qi-FT4"/>
+                                            <segue destination="V16-Kv-eDw" kind="presentation" id="rGu-VC-yQX"/>
+                                        </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invalid Login Credentials!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OR-Q4-3yr" userLabel="errorMessage">
                                         <rect key="frame" x="92" y="259" width="191" height="21"/>
@@ -79,7 +83,7 @@
         <!--Reveal View Controller-->
         <scene sceneID="rhe-8j-o5E">
             <objects>
-                <viewController id="V16-Kv-eDw" customClass="SWRevealViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="centralController" id="V16-Kv-eDw" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IiU-kJ-M7d"/>
                         <viewControllerLayoutGuide type="bottom" id="8oy-IE-GuZ"/>
@@ -246,7 +250,7 @@
         <!--Create Session Controller-->
         <scene sceneID="gHf-ni-be9">
             <objects>
-                <viewController id="gwB-ev-8x5" customClass="CreateSessionController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="first" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gwB-ev-8x5" customClass="CreateSessionController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I6k-Ts-8BS"/>
                         <viewControllerLayoutGuide type="bottom" id="Ndx-EB-KEm"/>
@@ -263,7 +267,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaT-9N-QLM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1426.5" y="-1239.5"/>
+            <point key="canvasLocation" x="1412.5" y="-1113.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="J6t-4x-b0a">
