@@ -33,7 +33,7 @@ class HomeController: UIViewController{
     @IBAction func playSongTest(sender: AnyObject) {
         print("We are playing the song!")
         
-        let audioPath = NSBundle.mainBundle().pathForResource("Song1", ofType: "m4a")
+        let audioPath = NSBundle.mainBundle().pathForResource("Song3", ofType: "m4a")
         
         
         do {

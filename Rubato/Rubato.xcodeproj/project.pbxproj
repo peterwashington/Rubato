@@ -11,8 +11,11 @@
 		2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */ = {isa = PBXBuildFile; fileRef = 2CD188C41BFBE7B800857A47 /* SupportingFiles */; };
 		2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */; };
 		2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD40C651BFE792500C3A3BE /* HomeController.swift */; };
-		3384C5E91C054A1D009DCC71 /* 1-22 Get Back.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5E81C054A1D009DCC71 /* 1-22 Get Back.m4a */; };
-		3384C5EB1C054A44009DCC71 /* Song1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5EA1C054A44009DCC71 /* Song1.m4a */; };
+		3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F51C054D9F009DCC71 /* Song1.m4a */; };
+		3384C5F81C054DE4009DCC71 /* Song2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F71C054DE4009DCC71 /* Song2.m4a */; };
+		3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F91C054DF8009DCC71 /* Song3.m4a */; };
+		3384C5FC1C0550D1009DCC71 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3384C5FB1C0550D1009DCC71 /* JoinViewController.swift */; };
+		3384C5FE1C0552C7009DCC71 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3384C5FD1C0552C7009DCC71 /* SessionViewController.swift */; };
 		33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */; };
 		33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F81BF0205E00E6A3F1 /* ViewController.swift */; };
 		33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D096FA1BF0205E00E6A3F1 /* Main.storyboard */; };
@@ -51,8 +54,11 @@
 		2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		2CD40C651BFE792500C3A3BE /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
-		3384C5E81C054A1D009DCC71 /* 1-22 Get Back.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "1-22 Get Back.m4a"; path = "SupportingFiles/1-22 Get Back.m4a"; sourceTree = "<group>"; };
-		3384C5EA1C054A44009DCC71 /* Song1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Song1.m4a; path = SupportingFiles/Song1.m4a; sourceTree = "<group>"; };
+		3384C5F51C054D9F009DCC71 /* Song1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song1.m4a; sourceTree = "<group>"; };
+		3384C5F71C054DE4009DCC71 /* Song2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song2.m4a; sourceTree = "<group>"; };
+		3384C5F91C054DF8009DCC71 /* Song3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song3.m4a; sourceTree = "<group>"; };
+		3384C5FB1C0550D1009DCC71 /* JoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		3384C5FD1C0552C7009DCC71 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		33D096F31BF0205E00E6A3F1 /* Rubato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D096F81BF0205E00E6A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +117,16 @@
 			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
+		3384C5F41C054D90009DCC71 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				3384C5F91C054DF8009DCC71 /* Song3.m4a */,
+				3384C5F71C054DE4009DCC71 /* Song2.m4a */,
+				3384C5F51C054D9F009DCC71 /* Song1.m4a */,
+			);
+			name = Songs;
+			sourceTree = "<group>";
+		};
 		33D096EA1BF0205E00E6A3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -136,8 +152,7 @@
 		33D096F51BF0205E00E6A3F1 /* Rubato */ = {
 			isa = PBXGroup;
 			children = (
-				3384C5EA1C054A44009DCC71 /* Song1.m4a */,
-				3384C5E81C054A1D009DCC71 /* 1-22 Get Back.m4a */,
+				3384C5F41C054D90009DCC71 /* Songs */,
 				2CD40C651BFE792500C3A3BE /* HomeController.swift */,
 				33ED9D721BFD8C8400BF5AD9 /* Spotify.framework */,
 				2CD188CE1BFBEC0F00857A47 /* SWRevealViewController */,
@@ -151,6 +166,8 @@
 				33D097051BF0205E00E6A3F1 /* Info.plist */,
 				33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */,
 				33D096FD1BF0205E00E6A3F1 /* Rubato.xcdatamodeld */,
+				3384C5FB1C0550D1009DCC71 /* JoinViewController.swift */,
+				3384C5FD1C0552C7009DCC71 /* SessionViewController.swift */,
 			);
 			path = Rubato;
 			sourceTree = "<group>";
@@ -278,12 +295,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */,
 				2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */,
 				33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */,
 				33D097011BF0205E00E6A3F1 /* Images.xcassets in Resources */,
-				3384C5E91C054A1D009DCC71 /* 1-22 Get Back.m4a in Resources */,
 				33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */,
-				3384C5EB1C054A44009DCC71 /* Song1.m4a in Resources */,
+				3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */,
+				3384C5F81C054DE4009DCC71 /* Song2.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +328,8 @@
 			files = (
 				2C22B4381BFB127800949702 /* MenuController.swift in Sources */,
 				33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */,
+				3384C5FC1C0550D1009DCC71 /* JoinViewController.swift in Sources */,
+				3384C5FE1C0552C7009DCC71 /* SessionViewController.swift in Sources */,
 				2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */,
 				2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */,
 				33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */,

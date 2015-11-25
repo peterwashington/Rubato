@@ -156,6 +156,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="gwB-ev-8x5" kind="show" id="9lm-oM-C68"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ZXS-aS-5YH">
                                         <rect key="frame" x="0.0" y="152" width="375" height="44"/>
@@ -175,6 +178,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="hly-vx-FXm" kind="show" id="XZl-vg-19x"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xwX-Ly-Apx">
                                         <rect key="frame" x="0.0" y="196" width="375" height="44"/>
@@ -340,6 +346,14 @@
                     <view key="view" contentMode="scaleToFill" id="9u9-L8-h0b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PtY-Zm-ZRF">
+                                <rect key="frame" x="146" y="73" width="115" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -416,6 +430,92 @@
             </objects>
             <point key="canvasLocation" x="649.5" y="-1135.5"/>
         </scene>
+        <!--Join View Controller-->
+        <scene sceneID="Xg4-PB-OFU">
+            <objects>
+                <viewController id="hly-vx-FXm" customClass="JoinViewController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r2M-M6-qj1"/>
+                        <viewControllerLayoutGuide type="bottom" id="VcQ-EC-nCt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SJl-6c-mQE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose session to join" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9W-5K-jA3">
+                                <rect key="frame" x="101" y="94" width="172" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eX0-RP-jbC">
+                                <rect key="frame" x="155" y="197" width="65" height="30"/>
+                                <state key="normal" title="Session 1"/>
+                                <connections>
+                                    <segue destination="S11-sj-Fmy" kind="show" id="qqf-4P-C8p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJh-bF-Itv">
+                                <rect key="frame" x="154" y="259" width="67" height="30"/>
+                                <state key="normal" title="Session 2"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X2M-jf-h5l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-677.5" y="-1664.5"/>
+        </scene>
+        <!--Session View Controller-->
+        <scene sceneID="WiT-pN-42j">
+            <objects>
+                <viewController id="S11-sj-Fmy" customClass="SessionViewController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IHV-qV-t31"/>
+                        <viewControllerLayoutGuide type="bottom" id="VuY-QC-bjg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sau-fy-0rn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rq3-Qd-KRM">
+                                <rect key="frame" x="67" y="129" width="241" height="30"/>
+                                <state key="normal" title="Playing in the Band - Grateful Dead"/>
+                                <connections>
+                                    <action selector="playSong1:" destination="S11-sj-Fmy" eventType="touchUpInside" id="7Ag-0K-wU2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta5-WD-XVN">
+                                <rect key="frame" x="126" y="181" width="123" height="30"/>
+                                <state key="normal" title="Now - Bassnectar"/>
+                                <connections>
+                                    <action selector="playSong2:" destination="S11-sj-Fmy" eventType="touchUpInside" id="WBE-6o-XND"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0R-gn-YyE">
+                                <rect key="frame" x="108" y="237" width="159" height="30"/>
+                                <state key="normal" title="Get Back - The Beatles"/>
+                                <connections>
+                                    <action selector="playSong3:" destination="S11-sj-Fmy" eventType="touchUpInside" id="DMB-ep-cG0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Session Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEW-gB-4mv">
+                                <rect key="frame" x="101" y="52" width="172" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ucW-zK-KXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.5" y="-2574.5"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="HYR-uw-OiM">
             <objects>
@@ -454,6 +554,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6u-SF-AYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-316" y="799"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dsn-Wb-wnt">
@@ -472,6 +573,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="meg-Ce-hNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-972" y="799"/>
         </scene>
     </scenes>
     <resources>
@@ -480,7 +582,8 @@
         <image name="log_in-mobile" width="488" height="88"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kI3-FK-wyc"/>
-        <segue reference="Scd-rr-SXe"/>
+        <segue reference="oqj-LX-925"/>
+        <segue reference="9lm-oM-C68"/>
+        <segue reference="P9E-0d-ACZ"/>
     </inferredMetricsTieBreakers>
 </document>
