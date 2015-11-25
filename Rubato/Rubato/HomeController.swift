@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import AVFoundation
 
 class HomeController: UIViewController{
+    
+    var audioPlayer:AVAudioPlayer!
+    
 
     @IBOutlet weak var homeButton: UIBarButtonItem!
     override func viewDidLoad() {
@@ -26,6 +30,26 @@ class HomeController: UIViewController{
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func playSongTest(sender: AnyObject) {
+        print("We are playing the song!")
+        
+        let audioPath = NSBundle.mainBundle().pathForResource("Song1", ofType: "m4a")
+        
+        
+        do {
+            // Preparation
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+        
+            // Play the sound.
+            try audioPlayer = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath!))
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        } catch {
+        }
+
+        
+    }
 
     /*
     // MARK: - Navigation
