@@ -28,6 +28,14 @@
 		33ED9D751BFD8F0F00BF5AD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED9D741BFD8F0F00BF5AD9 /* AVFoundation.framework */; };
 		33ED9D771BFD8F2900BF5AD9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED9D761BFD8F2900BF5AD9 /* SystemConfiguration.framework */; };
 		3F3952141BFD7A2C0035F5EE /* CreateSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */; };
+		3FF12EA21C081E8500AB04B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EA11C081E8500AB04B8 /* HomeViewController.swift */; };
+		3FF12EA41C08218500AB04B8 /* JoinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EA31C08218500AB04B8 /* JoinTableViewController.swift */; };
+		3FF12EA61C08222700AB04B8 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EA51C08222700AB04B8 /* CreateViewController.swift */; };
+		3FF12EA81C08240A00AB04B8 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EA71C08240A00AB04B8 /* TestViewController.swift */; };
+		3FF12EAC1C08530A00AB04B8 /* SongItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EAB1C08530A00AB04B8 /* SongItem.swift */; };
+		3FF12EAE1C08560300AB04B8 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EAD1C08560300AB04B8 /* AddTableViewController.swift */; };
+		3FF12EB01C086A7F00AB04B8 /* PastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EAF1C086A7F00AB04B8 /* PastTableViewController.swift */; };
+		3FF12EB21C08794900AB04B8 /* NearbyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EB11C08794900AB04B8 /* NearbyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +85,14 @@
 		33ED9D741BFD8F0F00BF5AD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		33ED9D761BFD8F2900BF5AD9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSessionController.swift; sourceTree = "<group>"; };
+		3FF12EA11C081E8500AB04B8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3FF12EA31C08218500AB04B8 /* JoinTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTableViewController.swift; sourceTree = "<group>"; };
+		3FF12EA51C08222700AB04B8 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		3FF12EA71C08240A00AB04B8 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3FF12EAB1C08530A00AB04B8 /* SongItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongItem.swift; sourceTree = "<group>"; };
+		3FF12EAD1C08560300AB04B8 /* AddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		3FF12EAF1C086A7F00AB04B8 /* PastTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastTableViewController.swift; sourceTree = "<group>"; };
+		3FF12EB11C08794900AB04B8 /* NearbyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +177,14 @@
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
+				3FF12EB11C08794900AB04B8 /* NearbyTableViewController.swift */,
+				3FF12EAF1C086A7F00AB04B8 /* PastTableViewController.swift */,
+				3FF12EAD1C08560300AB04B8 /* AddTableViewController.swift */,
+				3FF12EAB1C08530A00AB04B8 /* SongItem.swift */,
+				3FF12EA71C08240A00AB04B8 /* TestViewController.swift */,
+				3FF12EA11C081E8500AB04B8 /* HomeViewController.swift */,
+				3FF12EA31C08218500AB04B8 /* JoinTableViewController.swift */,
+				3FF12EA51C08222700AB04B8 /* CreateViewController.swift */,
 				3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */,
 				33D097001BF0205E00E6A3F1 /* Images.xcassets */,
 				33D097051BF0205E00E6A3F1 /* Info.plist */,
@@ -331,10 +355,18 @@
 				3384C5FC1C0550D1009DCC71 /* JoinViewController.swift in Sources */,
 				3384C5FE1C0552C7009DCC71 /* SessionViewController.swift in Sources */,
 				2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */,
+				3FF12EA81C08240A00AB04B8 /* TestViewController.swift in Sources */,
+				3FF12EA21C081E8500AB04B8 /* HomeViewController.swift in Sources */,
+				3FF12EB01C086A7F00AB04B8 /* PastTableViewController.swift in Sources */,
 				2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */,
+				3FF12EA41C08218500AB04B8 /* JoinTableViewController.swift in Sources */,
+				3FF12EAC1C08530A00AB04B8 /* SongItem.swift in Sources */,
+				3FF12EA61C08222700AB04B8 /* CreateViewController.swift in Sources */,
 				33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */,
 				3F3952141BFD7A2C0035F5EE /* CreateSessionController.swift in Sources */,
 				33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */,
+				3FF12EAE1C08560300AB04B8 /* AddTableViewController.swift in Sources */,
+				3FF12EB21C08794900AB04B8 /* NearbyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
