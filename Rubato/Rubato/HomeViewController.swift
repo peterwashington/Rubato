@@ -12,8 +12,13 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
+    @IBOutlet weak var logoutButton: UIBarButtonItem!
+    
+    @IBOutlet weak var welcomeText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//      welcomeText.text = "Welcome back, \()"
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"

@@ -20,10 +20,10 @@ class ViewController: UIViewController {
 
     @IBAction func loginWithSpotify(sender: AnyObject) {
         
-        //spotifyAuthenticator.clientID = kClientID
-        //spotifyAuthenticator.redirectURL = NSURL(string: kCallbackURL)
-        
-        //UIApplication.sharedApplication().openURL(spotifyAuthenticator.loginURL)
+//        spotifyAuthenticator.clientID = kClientID
+//        spotifyAuthenticator.redirectURL = NSURL(string: kCallbackURL)
+//        
+//        UIApplication.sharedApplication().openURL(spotifyAuthenticator.loginURL)
         
     }
     
