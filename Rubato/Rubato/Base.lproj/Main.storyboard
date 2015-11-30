@@ -405,7 +405,7 @@
                                                     <rect key="frame" x="-83" y="47" width="50" height="39"/>
                                                     <animations/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PastLogo" translatesAutoresizingMaskIntoConstraints="NO" id="77m-4O-iVA">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PastLogo2" translatesAutoresizingMaskIntoConstraints="NO" id="77m-4O-iVA">
                                                     <rect key="frame" x="8" y="7" width="36" height="28"/>
                                                     <animations/>
                                                 </imageView>
@@ -2419,7 +2419,7 @@
         <image name="HomeLogo" width="292" height="272"/>
         <image name="JoinSessionLogo" width="113" height="63"/>
         <image name="Parker" width="250" height="250"/>
-        <image name="PastLogo" width="308" height="293"/>
+        <image name="PastLogo2" width="308" height="293"/>
         <image name="Peter" width="250" height="250"/>
         <image name="Rubato Logo &amp; text" width="3227" height="1941"/>
         <image name="acTameImpala" width="800" height="800"/>
