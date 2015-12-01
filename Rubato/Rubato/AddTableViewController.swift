@@ -8,8 +8,13 @@
 
 import UIKit
 
-class AddTableViewController: UITableViewController, UISearchResultsUpdating {
+protocol AddTableViewControllerDelegate{
+    func controller(controller: AddTableViewController, didAddSong: String)
+}
 
+class AddTableViewController: UITableViewController, UISearchResultsUpdating{
+
+    var delegate: AddTableViewControllerDelegate?
     
     var songs = ["Eventually - Tame Impala",
     "Boblicity - Miles Davis",
@@ -58,6 +63,15 @@ class AddTableViewController: UITableViewController, UISearchResultsUpdating {
             cell.textLabel?.text = self.filteredSongs[indexPath.row]
         }
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        NSLog("You selected cell number: \(indexPath.row)!")
+        var chosenSong = tableView.cellForRowAtIndexPath(indexPath)?.textLabel?.text
+        if let delegate = self.delegate{
+            delegate.controller(self, didAddSong: chosenSong!)
+        }
+//        self.performSegueWithIdentifier("yourIdentifier", sender: self)
     }
 
    

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C05D1C91C0D322000BFBDF6 /* PlaySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D1C81C0D322000BFBDF6 /* PlaySongViewController.swift */; };
 		2C22B4381BFB127800949702 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22B4371BFB127800949702 /* MenuController.swift */; };
+		2C38A3401C0BEE34008AB09F /* SessionSongListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38A33F1C0BEE33008AB09F /* SessionSongListTableViewController.swift */; };
 		2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */ = {isa = PBXBuildFile; fileRef = 2CD188C41BFBE7B800857A47 /* SupportingFiles */; };
 		2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */; };
 		2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD40C651BFE792500C3A3BE /* HomeController.swift */; };
@@ -56,7 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C05D1C81C0D322000BFBDF6 /* PlaySongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongViewController.swift; sourceTree = "<group>"; };
 		2C22B4371BFB127800949702 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		2C38A33F1C0BEE33008AB09F /* SessionSongListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionSongListTableViewController.swift; sourceTree = "<group>"; };
 		2CD188C41BFBE7B800857A47 /* SupportingFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportingFiles; sourceTree = "<group>"; };
 		2CD188D01BFBEC4700857A47 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
 		2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
+				2C05D1C81C0D322000BFBDF6 /* PlaySongViewController.swift */,
+				2C38A33F1C0BEE33008AB09F /* SessionSongListTableViewController.swift */,
 				3FF12EB11C08794900AB04B8 /* NearbyTableViewController.swift */,
 				3FF12EAF1C086A7F00AB04B8 /* PastTableViewController.swift */,
 				3FF12EAD1C08560300AB04B8 /* AddTableViewController.swift */,
@@ -353,6 +359,8 @@
 				2C22B4381BFB127800949702 /* MenuController.swift in Sources */,
 				33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */,
 				3384C5FC1C0550D1009DCC71 /* JoinViewController.swift in Sources */,
+				2C38A3401C0BEE34008AB09F /* SessionSongListTableViewController.swift in Sources */,
+				2C05D1C91C0D322000BFBDF6 /* PlaySongViewController.swift in Sources */,
 				3384C5FE1C0552C7009DCC71 /* SessionViewController.swift in Sources */,
 				2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */,
 				3FF12EA81C08240A00AB04B8 /* TestViewController.swift in Sources */,

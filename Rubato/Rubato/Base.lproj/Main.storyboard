@@ -451,7 +451,7 @@
                             <tableViewSection headerTitle="New Year's Eve Party (12/31/15)" id="2wo-ui-tr9">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="d2R-kh-02c">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d2R-kh-02c" id="hVP-Jp-1vI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -485,7 +485,7 @@
                             <tableViewSection headerTitle="Big Sur Roadtrip (11/24/15)" id="eH6-C2-D5E">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="gSx-vj-Jr9">
-                                        <rect key="frame" x="0.0" y="100" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="164" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gSx-vj-Jr9" id="5Ra-Vi-ioS">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -519,7 +519,7 @@
                             <tableViewSection headerTitle="Group Coding Music (10/3/15)" id="coa-gt-XEE">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mR4-UL-lEC">
-                                        <rect key="frame" x="0.0" y="172" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="236" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mR4-UL-lEC" id="1yA-98-n2b">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -697,10 +697,10 @@
             </objects>
             <point key="canvasLocation" x="-1271.5" y="-608.5"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Session Song List Table View Controller-->
         <scene sceneID="IxD-Pz-SSG">
             <objects>
-                <tableViewController id="Jfk-rP-2Lp" sceneMemberID="viewController">
+                <tableViewController id="Jfk-rP-2Lp" customClass="SessionSongListTableViewController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="8FP-TT-iyl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -721,7 +721,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xg6-mV-8zt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-613.5" y="-1444.5"/>
+            <point key="canvasLocation" x="-749.5" y="-1460.5"/>
         </scene>
         <!--Search Songs-->
         <scene sceneID="uHK-0O-gxS">
@@ -734,7 +734,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="luC-wb-xMl">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="luC-wb-xMl" id="QdS-sO-SbI">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -757,10 +757,10 @@
             </objects>
             <point key="canvasLocation" x="-613.5" y="20.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Song View Controller-->
         <scene sceneID="Wkd-4A-Osl">
             <objects>
-                <viewController id="9CV-rF-dhB" sceneMemberID="viewController">
+                <viewController id="9CV-rF-dhB" customClass="PlaySongViewController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hez-T3-RXb"/>
                         <viewControllerLayoutGuide type="bottom" id="0DE-2p-lGj"/>
@@ -811,6 +811,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdv-4G-8ux">
+                                <rect key="frame" x="0.0" y="-5" width="375" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Title" id="8Oz-fm-BZk"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1324,7 +1331,7 @@
                             <tableViewSection headerTitle="New Year's Eve Party" id="ZNa-ii-no1">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="y0D-8C-UK8">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y0D-8C-UK8" id="tVG-xw-nRI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -1358,7 +1365,7 @@
                             <tableViewSection headerTitle="Big Sur Roadtrip" id="MtI-fA-pwx">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="b10-e8-OHS">
-                                        <rect key="frame" x="0.0" y="100" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="164" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b10-e8-OHS" id="EdY-xT-gKW">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -1392,7 +1399,7 @@
                             <tableViewSection headerTitle="Group Coding Music" id="0Wp-eI-VFv">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="qU7-Jm-HCS">
-                                        <rect key="frame" x="0.0" y="172" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="236" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qU7-Jm-HCS" id="Ewb-nK-nAK">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -1945,12 +1952,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J4u-Lg-mhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-921.5" y="3008.5"/>
+            <point key="canvasLocation" x="-1201.5" y="3014.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Song View Controller-->
         <scene sceneID="fUJ-cu-juE">
             <objects>
-                <viewController id="mnS-l8-VIN" sceneMemberID="viewController">
+                <viewController id="mnS-l8-VIN" customClass="PlaySongViewController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OAG-iZ-GYc"/>
                         <viewControllerLayoutGuide type="bottom" id="QaY-tM-Gen"/>
@@ -2437,15 +2444,15 @@
         <image name="voteDeactivated" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="s2g-5a-Zwq"/>
-        <segue reference="yH0-G7-II0"/>
+        <segue reference="oqj-LX-925"/>
+        <segue reference="Scd-rr-SXe"/>
+        <segue reference="9lm-oM-C68"/>
         <segue reference="zq6-zX-tkH"/>
+        <segue reference="Wd1-uM-WvE"/>
+        <segue reference="s2g-5a-Zwq"/>
         <segue reference="O8L-Va-hnh"/>
         <segue reference="nUk-qn-zKg"/>
-        <segue reference="txk-IW-faR"/>
-        <segue reference="Scd-rr-SXe"/>
-        <segue reference="oqj-LX-925"/>
-        <segue reference="9lm-oM-C68"/>
+        <segue reference="rAr-8W-FbD"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
 </document>

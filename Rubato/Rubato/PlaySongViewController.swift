@@ -1,28 +1,19 @@
 //
-//  TestViewController.swift
+//  PlaySongViewController.swift
 //  Rubato
 //
-//  Created by Gio on 11/26/15.
+//  Created by Parker Odrich  on 11/30/15.
 //  Copyright © 2015 Peter Washington. All rights reserved.
 //
 
 import UIKit
 
-class TestViewController: UIViewController {
+class PlaySongViewController: UIViewController {
 
-    @IBOutlet var exitSessionButton: UIBarButtonItem!
-    @IBOutlet var menuButton: UIBarButtonItem!
-    @IBOutlet var sessionNavigationItem: UINavigationItem!
-
-    
-    var sessionName = String()
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        sessionNavigationItem.title = sessionName
-         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        
-        
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
