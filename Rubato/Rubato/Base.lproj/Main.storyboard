@@ -15,6 +15,50 @@
             <string>Knul-Medium</string>
             <string>Knul-Medium</string>
             <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
+            <string>Knul-Medium</string>
         </mutableArray>
         <mutableArray key="Knul-Regular.otf">
             <string>Knul</string>
@@ -95,6 +139,102 @@
             </objects>
             <point key="canvasLocation" x="-3702.5" y="220.5"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="ibL-cI-lzS">
+            <objects>
+                <tableViewController id="ye9-ZM-3Dv" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GoA-LA-4TD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="I9F-FH-ysy">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="D9A-HN-UFM">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D9A-HN-UFM" id="5f8-XT-GtF">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Parker" translatesAutoresizingMaskIntoConstraints="NO" id="QhR-dk-g70">
+                                                    <rect key="frame" x="16" y="0.0" width="44" height="45"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Netflix &amp; Chill?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caG-wu-fd2">
+                                                    <rect key="frame" x="68" y="11" width="267" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0nv-hr-yBJ">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0nv-hr-yBJ" id="z9J-pL-pti">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gio" translatesAutoresizingMaskIntoConstraints="NO" id="5jU-lu-6YX">
+                                                    <rect key="frame" x="16" y="-1" width="44" height="45"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EBF Essentials...By Gio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzV-N7-AAR">
+                                                    <rect key="frame" x="68" y="11" width="268" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="od0-5U-Fxu">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="od0-5U-Fxu" id="1Dq-cM-EJg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peter" translatesAutoresizingMaskIntoConstraints="NO" id="8yg-xL-0E0">
+                                                    <rect key="frame" x="16" y="-1" width="44" height="45"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Munger Turnup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riS-f8-0UJ">
+                                                    <rect key="frame" x="68" y="11" width="272" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="ye9-ZM-3Dv" id="Evw-pm-A85"/>
+                            <outlet property="delegate" destination="ye9-ZM-3Dv" id="3Cy-jR-anl"/>
+                        </connections>
+                    </tableView>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XOj-AK-2KX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1504.5" y="-2945.5"/>
+        </scene>
         <!--Home View Controller-->
         <scene sceneID="FsA-Te-Ttf">
             <objects>
@@ -107,33 +247,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome back, user!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3Y-TR-dL8">
-                                <rect key="frame" x="107" y="319" width="160" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome back, user!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3Y-TR-dL8">
+                                <rect key="frame" x="107" y="171" width="160" height="21"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
                                 <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyi-tL-aCJ">
-                                <rect key="frame" x="179" y="404" width="16" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="Ovz-jC-J38">
-                                <rect key="frame" x="107" y="151" width="160" height="160"/>
-                                <animations/>
-                            </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NuV-7v-HJm">
-                                <rect key="frame" x="0.0" y="478" width="375" height="189"/>
+                                <rect key="frame" x="0.0" y="513" width="375" height="154"/>
                                 <animations/>
                                 <connections>
                                     <segue destination="eiY-8k-Cuz" kind="embed" id="wNx-SZ-xTF"/>
                                 </connections>
                             </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or join a session happening near you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HU-gk-bbQ">
+                                <rect key="frame" x="27" y="474" width="320" height="22"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="18"/>
+                                <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uF-9q-MST">
-                                <rect key="frame" x="125" y="348" width="124" height="53"/>
+                                <rect key="frame" x="125" y="207" width="124" height="53"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Create Session">
@@ -143,15 +279,22 @@
                                     <segue destination="u5j-rG-fIs" kind="show" id="O8L-Va-hnh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="join a nearby session:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HU-gk-bbQ">
-                                <rect key="frame" x="108" y="433" width="164" height="21"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dme-yc-yOK">
+                                <rect key="frame" x="0.0" y="316" width="375" height="143"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <connections>
+                                    <segue destination="ye9-ZM-3Dv" kind="embed" id="J47-bM-CRq"/>
+                                </connections>
+                            </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check out some of our featured sessions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRP-SQ-pDp">
+                                <rect key="frame" x="22" y="279" width="331" height="22"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="18"/>
                                 <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rubato Logo &amp; text" translatesAutoresizingMaskIntoConstraints="NO" id="waZ-EC-ND9">
-                                <rect key="frame" x="67" y="79" width="240" height="144"/>
+                                <rect key="frame" x="67" y="82" width="240" height="144"/>
                                 <animations/>
                             </imageView>
                         </subviews>
@@ -172,7 +315,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1St-hZ-OpA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2002.5" y="-2148.5"/>
+            <point key="canvasLocation" x="-2002.5" y="-2134.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Om0-dX-vLl">
@@ -184,10 +327,10 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection headerTitle="Nearby Sessions" id="ttl-eQ-dv6">
+                            <tableViewSection id="ttl-eQ-dv6">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xEK-Ll-S2c">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xEK-Ll-S2c" id="EbV-Vn-x9Q">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -198,10 +341,10 @@
                                                     <animations/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Year's Eve Party" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="314-dG-9SF">
-                                                    <rect key="frame" x="66" y="11" width="162" height="21"/>
+                                                    <rect key="frame" x="66" y="11" width="286" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -213,7 +356,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="JKJ-o9-dej">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JKJ-o9-dej" id="EoL-HY-Lhe">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -224,10 +367,10 @@
                                                     <animations/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Group Coding Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqU-2z-4td">
-                                                    <rect key="frame" x="66" y="11" width="157" height="21"/>
+                                                    <rect key="frame" x="66" y="11" width="288" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -239,7 +382,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Tb1-Na-gVV">
-                                        <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tb1-Na-gVV" id="Xwc-8t-8OO">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -250,10 +393,10 @@
                                                     <animations/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Big Sur Roadtrip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JC-Kx-iqz">
-                                                    <rect key="frame" x="66" y="11" width="125" height="21"/>
+                                                    <rect key="frame" x="66" y="11" width="294" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -277,7 +420,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EVZ-Uz-nGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1486.5" y="-2148.5"/>
+            <point key="canvasLocation" x="-1074.5" y="-2846.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="nhk-N0-Gfq">
@@ -451,7 +594,7 @@
                             <tableViewSection headerTitle="New Year's Eve Party (12/31/15)" id="2wo-ui-tr9">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="d2R-kh-02c">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d2R-kh-02c" id="hVP-Jp-1vI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -461,11 +604,11 @@
                                                     <rect key="frame" x="16" y="-4" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Peter Washington" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6E6-uw-sFT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Peter Washington" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6E6-uw-sFT">
                                                     <rect key="frame" x="68" y="11" width="224" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -485,17 +628,17 @@
                             <tableViewSection headerTitle="Big Sur Roadtrip (11/24/15)" id="eH6-C2-D5E">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="gSx-vj-Jr9">
-                                        <rect key="frame" x="0.0" y="100" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="164" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gSx-vj-Jr9" id="5Ra-Vi-ioS">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Gio Jacuzzi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5M-kH-hNm">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Gio Jacuzzi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5M-kH-hNm">
                                                     <rect key="frame" x="68" y="11" width="177" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gio" translatesAutoresizingMaskIntoConstraints="NO" id="9kr-kh-ubr">
@@ -519,17 +662,17 @@
                             <tableViewSection headerTitle="Group Coding Music (10/3/15)" id="coa-gt-XEE">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mR4-UL-lEC">
-                                        <rect key="frame" x="0.0" y="172" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="236" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mR4-UL-lEC" id="1yA-98-n2b">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Parker Odrich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOw-AZ-1tI">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Parker Odrich" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOw-AZ-1tI">
                                                     <rect key="frame" x="68" y="11" width="194" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Parker" translatesAutoresizingMaskIntoConstraints="NO" id="pM4-XS-oWs">
@@ -638,20 +781,6 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Var-xh-f5O">
                                 <rect key="frame" x="0.0" y="547" width="375" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpa-oE-D7g">
-                                        <rect key="frame" x="163" y="30" width="42" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilb-wD-4rD">
-                                        <rect key="frame" x="163" y="68" width="42" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vb-iT-a5U">
                                         <rect key="frame" x="300" y="34" width="50" height="50"/>
                                         <animations/>
@@ -668,6 +797,20 @@
                                             <segue destination="9CV-rF-dhB" kind="show" id="LCT-H2-0Mp"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6lb-k6-qVt">
+                                        <rect key="frame" x="95" y="49" width="185" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now Playing:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdS-4d-vRY">
+                                        <rect key="frame" x="95" y="15" width="185" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="0.97521060391476289" alpha="1" colorSpace="calibratedWhite"/>
@@ -695,7 +838,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yZK-ve-wsc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1271.5" y="-608.5"/>
+            <point key="canvasLocation" x="-1233.5" y="-612.5"/>
         </scene>
         <!--Session Song List Table View Controller-->
         <scene sceneID="IxD-Pz-SSG">
@@ -782,7 +925,7 @@
                                 <animations/>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nWd-pQ-Pwz">
-                                <rect key="frame" x="166" y="514" width="62" height="65"/>
+                                <rect key="frame" x="156" y="514" width="62" height="65"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="play"/>
                             </button>
@@ -804,13 +947,6 @@
                                 <rect key="frame" x="25" y="637" width="15" height="15"/>
                                 <animations/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOY-Ju-83p">
-                                <rect key="frame" x="95" y="466" width="185" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdv-4G-8ux">
                                 <rect key="frame" x="0.0" y="-5" width="375" height="44"/>
                                 <animations/>
@@ -818,6 +954,13 @@
                                     <navigationItem title="Title" id="8Oz-fm-BZk"/>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOY-Ju-83p">
+                                <rect key="frame" x="95" y="467" width="185" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1341,11 +1484,11 @@
                                                     <rect key="frame" x="16" y="-4" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Peter Washington" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gI4-mW-kZ4">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Peter Washington" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gI4-mW-kZ4">
                                                     <rect key="frame" x="68" y="11" width="224" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1371,11 +1514,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Gio Jacuzzi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qc-oI-fE4">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Gio Jacuzzi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qc-oI-fE4">
                                                     <rect key="frame" x="68" y="11" width="177" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gio" translatesAutoresizingMaskIntoConstraints="NO" id="O6n-zp-VU7">
@@ -1405,11 +1548,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Parker Odrich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZG-ZT-LS1">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created by Parker Odrich" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZG-ZT-LS1">
                                                     <rect key="frame" x="68" y="11" width="194" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Parker" translatesAutoresizingMaskIntoConstraints="NO" id="98s-0C-Jbj">
@@ -1492,20 +1635,6 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6el-7z-F8T">
                                 <rect key="frame" x="0.0" y="547" width="375" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tl7-C1-ZW9">
-                                        <rect key="frame" x="163" y="30" width="42" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijy-JB-D0s">
-                                        <rect key="frame" x="163" y="68" width="42" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7r-nX-bKC">
                                         <rect key="frame" x="300" y="34" width="50" height="50"/>
                                         <animations/>
@@ -1526,6 +1655,20 @@
                                             </segue>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHY-4B-Dma">
+                                        <rect key="frame" x="95" y="63" width="185" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now Playing:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVZ-1V-yMh">
+                                        <rect key="frame" x="95" y="29" width="185" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="0.97521060390000003" alpha="1" colorSpace="calibratedWhite"/>
@@ -1579,12 +1722,37 @@
                                                     <animations/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q9-KS-knJ">
-                                                    <rect key="frame" x="52" y="11" width="261" height="21"/>
+                                                    <rect key="frame" x="52" y="11" width="212" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
                                                     <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="14" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0T-iq-XSU">
+                                                    <rect key="frame" x="290" y="11" width="13" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tc9-S5-xdZ">
+                                                    <rect key="frame" x="343" y="11" width="24" height="24"/>
+                                                    <animations/>
+                                                    <accessibility key="accessibilityConfiguration" hint="" identifier="10" label="1"/>
+                                                    <state key="normal" title="Vote" image="downvote"/>
+                                                    <connections>
+                                                        <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="zAW-cB-OD1"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nok-fx-udP">
+                                                    <rect key="frame" x="311" y="11" width="24" height="24"/>
+                                                    <animations/>
+                                                    <accessibility key="accessibilityConfiguration" hint="" identifier="9" label="2"/>
+                                                    <state key="normal" title="Vote" image="voteDeactivated"/>
+                                                    <connections>
+                                                        <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="dye-cP-2DF"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1604,8 +1772,8 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRT-Vy-G0l">
                                                     <rect key="frame" x="52" y="11" width="214" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdR-rh-kSb">
@@ -1649,13 +1817,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjn-Oz-ZeM">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjH-zo-J29">
                                                     <rect key="frame" x="343" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1681,6 +1842,13 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tws-BW-RA4">
+                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1697,13 +1865,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50m-U1-Fb0">
-                                                    <rect key="frame" x="52" y="11" width="212" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTd-Mw-y9Q">
                                                     <rect key="frame" x="343" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1729,6 +1890,13 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRu-2a-Tpt">
+                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1745,13 +1913,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K63-U9-Pcv">
-                                                    <rect key="frame" x="52" y="11" width="212" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2W-4p-AN8">
                                                     <rect key="frame" x="343" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1777,6 +1938,13 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHV-WR-EmI">
+                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1793,13 +1961,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jeu-Uw-zDj">
-                                                    <rect key="frame" x="52" y="11" width="213" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bST-bF-AlX">
                                                     <rect key="frame" x="343" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1825,6 +1986,13 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="hAr-4I-WhM"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eof-4k-0WU">
+                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1841,13 +2009,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwD-om-j1o">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n63-I2-kAp">
                                                     <rect key="frame" x="343" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1857,6 +2018,13 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="jTn-iX-aEb"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PM2-rO-bIa">
+                                                    <rect key="frame" x="290" y="11" width="13" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHY-2f-sv8">
                                                     <rect key="frame" x="311" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1866,11 +2034,11 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="vfW-Y0-8zH"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PM2-rO-bIa">
-                                                    <rect key="frame" x="290" y="11" width="13" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Dr-Qr-0pf">
+                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1889,13 +2057,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZF-2h-bpf">
-                                                    <rect key="frame" x="52" y="11" width="215" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uU-xh-Y60">
                                                     <rect key="frame" x="343" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1921,6 +2082,13 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8te-fK-sSO">
+                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1937,13 +2105,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geB-Tg-d55">
-                                                    <rect key="frame" x="52" y="11" width="216" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLw-9X-coZ">
                                                     <rect key="frame" x="343" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1969,6 +2130,13 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDu-g0-nyt">
+                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1985,13 +2153,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiN-qd-Hey">
-                                                    <rect key="frame" x="52" y="11" width="216" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HmC-lp-yDB">
                                                     <rect key="frame" x="290" y="11" width="13" height="21"/>
                                                     <animations/>
@@ -2017,6 +2178,13 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="n1a-5u-fLZ"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuT-sJ-NGW">
+                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -2107,11 +2275,6 @@
                                 <rect key="frame" x="46" y="629" width="283" height="31"/>
                                 <animations/>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY7-wF-Oa1">
-                                <rect key="frame" x="166" y="514" width="62" height="65"/>
-                                <animations/>
-                                <state key="normal" title="Button" image="play"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaY-cB-Vmg">
                                 <rect key="frame" x="64" y="526" width="49" height="41"/>
                                 <animations/>
@@ -2133,10 +2296,15 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMZ-PP-GA8">
                                 <rect key="frame" x="95" y="466" width="185" height="21"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY7-wF-Oa1">
+                                <rect key="frame" x="156" y="514" width="62" height="65"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="play"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2172,20 +2340,6 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iAB-1G-QV4">
                                 <rect key="frame" x="0.0" y="547" width="375" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFn-CI-c4e">
-                                        <rect key="frame" x="163" y="30" width="42" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SpT-u1-v7m">
-                                        <rect key="frame" x="163" y="68" width="42" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaS-9t-loR">
                                         <rect key="frame" x="24" y="33" width="50" height="51"/>
                                         <animations/>
@@ -2196,6 +2350,25 @@
                                             </segue>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPN-tK-ZYd">
+                                        <rect key="frame" x="302" y="34" width="50" height="50"/>
+                                        <animations/>
+                                        <state key="normal" image="add30"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0k-5K-D7z">
+                                        <rect key="frame" x="97" y="63" width="185" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now Playing:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lun-Oq-nXA">
+                                        <rect key="frame" x="97" y="29" width="185" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="0.97521060390000003" alpha="1" colorSpace="calibratedWhite"/>
@@ -2251,7 +2424,8 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVl-uB-Ikc">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2270,11 +2444,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARO-OD-EmS">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzp-Hr-NcX">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2293,11 +2467,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlz-gE-bqJ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RS-nz-6EV">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2316,11 +2490,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQt-lV-cTB">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w74-c6-hDT">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2339,11 +2513,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jca-9B-gWU">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28n-Gj-1Ah">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2362,11 +2536,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yb3-oz-NJr">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEg-yx-gZO">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2385,11 +2559,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9W-Bj-t0m">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bu-QM-rEe">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2408,11 +2582,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Shl-A5-Mke">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qv3-hs-S3E">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2431,11 +2605,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTF-vC-4CM">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clX-qa-N7c">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2454,11 +2628,11 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34o-ZU-5kJ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Am-Dy-tok">
                                                     <rect key="frame" x="52" y="11" width="261" height="21"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2505,11 +2679,6 @@
                                 <rect key="frame" x="46" y="629" width="283" height="31"/>
                                 <animations/>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8W-E5-YEn">
-                                <rect key="frame" x="166" y="514" width="62" height="65"/>
-                                <animations/>
-                                <state key="normal" title="Button" image="play"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPo-9a-vAH">
                                 <rect key="frame" x="64" y="526" width="49" height="41"/>
                                 <animations/>
@@ -2529,12 +2698,17 @@
                                 <animations/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7U-eO-8ul">
-                                <rect key="frame" x="95" y="466" width="185" height="21"/>
+                                <rect key="frame" x="95" y="467" width="185" height="21"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8W-E5-YEn">
+                                <rect key="frame" x="156" y="513" width="62" height="65"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="play"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2568,20 +2742,19 @@
         <image name="play" width="256" height="256"/>
         <image name="player" width="256" height="256"/>
         <image name="prev" width="256" height="256"/>
-        <image name="user" width="512" height="512"/>
         <image name="volumeMax" width="128" height="128"/>
         <image name="volumeMin" width="128" height="128"/>
         <image name="voteDeactivated" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oqj-LX-925"/>
         <segue reference="Scd-rr-SXe"/>
         <segue reference="9lm-oM-C68"/>
-        <segue reference="k8M-UM-eV9"/>
-        <segue reference="nUk-qn-zKg"/>
+        <segue reference="oqj-LX-925"/>
+        <segue reference="yH0-G7-II0"/>
+        <segue reference="s2g-5a-Zwq"/>
         <segue reference="zq6-zX-tkH"/>
         <segue reference="O8L-Va-hnh"/>
-        <segue reference="s2g-5a-Zwq"/>
+        <segue reference="zBZ-Od-4BB"/>
         <segue reference="rAr-8W-FbD"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>

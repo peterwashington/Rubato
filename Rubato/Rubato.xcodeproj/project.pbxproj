@@ -13,6 +13,9 @@
 		2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */ = {isa = PBXBuildFile; fileRef = 2CD188C41BFBE7B800857A47 /* SupportingFiles */; };
 		2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */; };
 		2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD40C651BFE792500C3A3BE /* HomeController.swift */; };
+		2CDBDF771C10119400A289F1 /* Knul-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBDF761C10119400A289F1 /* Knul-Medium.otf */; };
+		2CDBDF791C10119C00A289F1 /* Knul-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBDF781C10119C00A289F1 /* Knul-Regular.otf */; };
+		2CDBDF7B1C1011A100A289F1 /* Knul-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBDF7A1C1011A100A289F1 /* Knul-Light.otf */; };
 		3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F51C054D9F009DCC71 /* Song1.m4a */; };
 		3384C5F81C054DE4009DCC71 /* Song2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F71C054DE4009DCC71 /* Song2.m4a */; };
 		3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F91C054DF8009DCC71 /* Song3.m4a */; };
@@ -62,10 +65,13 @@
 		2C05D1C81C0D322000BFBDF6 /* PlaySongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongViewController.swift; sourceTree = "<group>"; };
 		2C22B4371BFB127800949702 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		2C38A33F1C0BEE33008AB09F /* SessionSongListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionSongListTableViewController.swift; sourceTree = "<group>"; };
-		2CD188C41BFBE7B800857A47 /* SupportingFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportingFiles; sourceTree = "<group>"; };
+		2CD188C41BFBE7B800857A47 /* SupportingFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SupportingFiles; path = Rubato/SupportingFiles; sourceTree = "<group>"; };
 		2CD188D01BFBEC4700857A47 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
 		2CD188D11BFBEC4700857A47 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		2CD40C651BFE792500C3A3BE /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		2CDBDF761C10119400A289F1 /* Knul-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Knul-Medium.otf"; path = "Rubato/SupportingFiles/Knul-Medium.otf"; sourceTree = "<group>"; };
+		2CDBDF781C10119C00A289F1 /* Knul-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Knul-Regular.otf"; path = "Rubato/SupportingFiles/Knul-Regular.otf"; sourceTree = "<group>"; };
+		2CDBDF7A1C1011A100A289F1 /* Knul-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Knul-Light.otf"; path = "Rubato/SupportingFiles/Knul-Light.otf"; sourceTree = "<group>"; };
 		334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
 		3384C5F51C054D9F009DCC71 /* Song1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song1.m4a; sourceTree = "<group>"; };
 		3384C5F71C054DE4009DCC71 /* Song2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song2.m4a; sourceTree = "<group>"; };
@@ -152,6 +158,10 @@
 		33D096EA1BF0205E00E6A3F1 = {
 			isa = PBXGroup;
 			children = (
+				2CDBDF761C10119400A289F1 /* Knul-Medium.otf */,
+				2CDBDF781C10119C00A289F1 /* Knul-Regular.otf */,
+				2CDBDF7A1C1011A100A289F1 /* Knul-Light.otf */,
+				2CD188C41BFBE7B800857A47 /* SupportingFiles */,
 				33ED9D761BFD8F2900BF5AD9 /* SystemConfiguration.framework */,
 				33ED9D741BFD8F0F00BF5AD9 /* AVFoundation.framework */,
 				33D096F51BF0205E00E6A3F1 /* Rubato */,
@@ -178,7 +188,6 @@
 				2CD40C651BFE792500C3A3BE /* HomeController.swift */,
 				33ED9D721BFD8C8400BF5AD9 /* Spotify.framework */,
 				2CD188CE1BFBEC0F00857A47 /* SWRevealViewController */,
-				2CD188C41BFBE7B800857A47 /* SupportingFiles */,
 				2C22B4371BFB127800949702 /* MenuController.swift */,
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
@@ -328,12 +337,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDBDF7B1C1011A100A289F1 /* Knul-Light.otf in Resources */,
 				3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */,
 				2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */,
 				33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */,
 				33D097011BF0205E00E6A3F1 /* Images.xcassets in Resources */,
 				33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */,
+				2CDBDF791C10119C00A289F1 /* Knul-Regular.otf in Resources */,
 				3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */,
+				2CDBDF771C10119400A289F1 /* Knul-Medium.otf in Resources */,
 				3384C5F81C054DE4009DCC71 /* Song2.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
