@@ -29,6 +29,7 @@
 		33ED9D731BFD8C8400BF5AD9 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED9D721BFD8C8400BF5AD9 /* Spotify.framework */; };
 		33ED9D751BFD8F0F00BF5AD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED9D741BFD8F0F00BF5AD9 /* AVFoundation.framework */; };
 		33ED9D771BFD8F2900BF5AD9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED9D761BFD8F2900BF5AD9 /* SystemConfiguration.framework */; };
+		3F22143B1C0FB14D00FAB3D9 /* EmbededTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22143A1C0FB14D00FAB3D9 /* EmbededTableViewController.swift */; };
 		3F3952141BFD7A2C0035F5EE /* CreateSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */; };
 		3FF12EA21C081E8500AB04B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EA11C081E8500AB04B8 /* HomeViewController.swift */; };
 		3FF12EA41C08218500AB04B8 /* JoinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF12EA31C08218500AB04B8 /* JoinTableViewController.swift */; };
@@ -88,6 +89,7 @@
 		33ED9D721BFD8C8400BF5AD9 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 		33ED9D741BFD8F0F00BF5AD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		33ED9D761BFD8F2900BF5AD9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F22143A1C0FB14D00FAB3D9 /* EmbededTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbededTableViewController.swift; sourceTree = "<group>"; };
 		3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSessionController.swift; sourceTree = "<group>"; };
 		3FF12EA11C081E8500AB04B8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3FF12EA31C08218500AB04B8 /* JoinTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTableViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
 				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
 				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
+				3F22143A1C0FB14D00FAB3D9 /* EmbededTableViewController.swift */,
 				2C05D1C81C0D322000BFBDF6 /* PlaySongViewController.swift */,
 				2C38A33F1C0BEE33008AB09F /* SessionSongListTableViewController.swift */,
 				3FF12EB11C08794900AB04B8 /* NearbyTableViewController.swift */,
@@ -364,6 +367,7 @@
 				3384C5FE1C0552C7009DCC71 /* SessionViewController.swift in Sources */,
 				2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */,
 				3FF12EA81C08240A00AB04B8 /* TestViewController.swift in Sources */,
+				3F22143B1C0FB14D00FAB3D9 /* EmbededTableViewController.swift in Sources */,
 				3FF12EA21C081E8500AB04B8 /* HomeViewController.swift in Sources */,
 				3FF12EB01C086A7F00AB04B8 /* PastTableViewController.swift in Sources */,
 				2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */,
