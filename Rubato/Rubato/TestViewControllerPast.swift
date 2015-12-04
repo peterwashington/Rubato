@@ -1,33 +1,34 @@
 //
-//  TestViewController.swift
+//  TestViewControllerPast.swift
 //  Rubato
 //
-//  Created by Gio on 11/26/15.
+//  Created by Peter Washington on 12/4/15.
 //  Copyright © 2015 Peter Washington. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
 
-protocol DestinationViewDelegate {
-    func addSong(songName: String)
-}
 
 
-
-class TestViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+class TestViewControllerPast: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     @IBOutlet var exitSessionButton: UIBarButtonItem!
     @IBOutlet var menuButton: UIBarButtonItem!
     @IBOutlet var sessionNavigationItem: UINavigationItem!
-
+    
+    
+    
     
     var sessionName = String()
     
     
-    @IBOutlet weak var currentPlayingSong: UILabel!
-
     @IBOutlet weak var tableView: UITableView!
+    
+    
+    
+    @IBOutlet weak var currentPlayingSong: UILabel!
+    
     
     
     override func viewDidLoad() {
@@ -35,12 +36,12 @@ class TestViewController: UIViewController, UITableViewDelegate, UITableViewData
         sessionNavigationItem.title = sessionName
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
-        self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cellPast")
         
         currentPlayingSong.text? = Globals.CurrentInfo.currentSong
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -49,19 +50,17 @@ class TestViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(Globals.CurrentInfo.currentSessionSongs.count)
-        return Globals.CurrentInfo.currentSessionSongs.count
+        print(Globals.CurrentInfo.pastSessionSongs.count)
+        return Globals.CurrentInfo.pastSessionSongs.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cellPast", forIndexPath: indexPath) as UITableViewCell
         
-        cell.textLabel?.text = Globals.CurrentInfo.currentSessionSongs[indexPath.row]
-        cell.imageView?.image = UIImage(named: "likeDeactivated.png")
+        cell.textLabel?.text = Globals.CurrentInfo.pastSessionSongs[indexPath.row]
+        cell.imageView?.image = UIImage(named: "Peter.jpg")
         cell.detailTextLabel?.text = "test test thbjhbest"
-        
-        print(Globals.CurrentInfo.currentSessionSongs[indexPath.row])
         
         return cell
     }
@@ -71,9 +70,6 @@ class TestViewController: UIViewController, UITableViewDelegate, UITableViewData
         print("You selected song #\(chosenSong)!")
         
         print("hihihi")
-        
-        Globals.CurrentInfo.currentSong = chosenSong!
-        
         
         
         switch chosenSong {
@@ -488,15 +484,15 @@ class TestViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

@@ -45,6 +45,11 @@
 		3319038F1C11CFD70084C63B /* WeCanWorkItOut.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903741C11CFD70084C63B /* WeCanWorkItOut.m4a */; };
 		331903901C11CFD70084C63B /* YellowSubmarine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903751C11CFD70084C63B /* YellowSubmarine.m4a */; };
 		331903911C11CFD70084C63B /* Yesterday.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903761C11CFD70084C63B /* Yesterday.m4a */; };
+		331903931C11E0380084C63B /* downvote.png in Resources */ = {isa = PBXBuildFile; fileRef = 331903921C11E0380084C63B /* downvote.png */; };
+		331903951C11E0EB0084C63B /* likeDeactivated.png in Resources */ = {isa = PBXBuildFile; fileRef = 331903941C11E0EB0084C63B /* likeDeactivated.png */; };
+		331903971C11E0F30084C63B /* likeActivated.png in Resources */ = {isa = PBXBuildFile; fileRef = 331903961C11E0F30084C63B /* likeActivated.png */; };
+		331903991C11E43F0084C63B /* TestViewControllerPast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331903981C11E43F0084C63B /* TestViewControllerPast.swift */; };
+		3319039B1C11EDFE0084C63B /* Peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3319039A1C11EDFE0084C63B /* Peter.jpg */; };
 		3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F51C054D9F009DCC71 /* Song1.m4a */; };
 		3384C5F81C054DE4009DCC71 /* Song2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F71C054DE4009DCC71 /* Song2.m4a */; };
 		3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F91C054DF8009DCC71 /* Song3.m4a */; };
@@ -130,6 +135,11 @@
 		331903741C11CFD70084C63B /* WeCanWorkItOut.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeCanWorkItOut.m4a; sourceTree = "<group>"; };
 		331903751C11CFD70084C63B /* YellowSubmarine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = YellowSubmarine.m4a; sourceTree = "<group>"; };
 		331903761C11CFD70084C63B /* Yesterday.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yesterday.m4a; sourceTree = "<group>"; };
+		331903921C11E0380084C63B /* downvote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downvote.png; sourceTree = "<group>"; };
+		331903941C11E0EB0084C63B /* likeDeactivated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeDeactivated.png; sourceTree = "<group>"; };
+		331903961C11E0F30084C63B /* likeActivated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeActivated.png; sourceTree = "<group>"; };
+		331903981C11E43F0084C63B /* TestViewControllerPast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewControllerPast.swift; sourceTree = "<group>"; };
+		3319039A1C11EDFE0084C63B /* Peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Peter.jpg; sourceTree = "<group>"; };
 		334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
 		3384C5F51C054D9F009DCC71 /* Song1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song1.m4a; sourceTree = "<group>"; };
 		3384C5F71C054DE4009DCC71 /* Song2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song2.m4a; sourceTree = "<group>"; };
@@ -280,11 +290,16 @@
 				3F22143A1C0FB14D00FAB3D9 /* EmbededTableViewController.swift */,
 				2C05D1C81C0D322000BFBDF6 /* PlaySongViewController.swift */,
 				2C38A33F1C0BEE33008AB09F /* SessionSongListTableViewController.swift */,
+				331903921C11E0380084C63B /* downvote.png */,
+				331903941C11E0EB0084C63B /* likeDeactivated.png */,
 				3FF12EB11C08794900AB04B8 /* NearbyTableViewController.swift */,
 				3FF12EAF1C086A7F00AB04B8 /* PastTableViewController.swift */,
 				3FF12EAD1C08560300AB04B8 /* AddTableViewController.swift */,
+				331903961C11E0F30084C63B /* likeActivated.png */,
 				3FF12EAB1C08530A00AB04B8 /* SongItem.swift */,
+				3319039A1C11EDFE0084C63B /* Peter.jpg */,
 				3FF12EA71C08240A00AB04B8 /* TestViewController.swift */,
+				331903981C11E43F0084C63B /* TestViewControllerPast.swift */,
 				3FF12EA11C081E8500AB04B8 /* HomeViewController.swift */,
 				3FF12EA31C08218500AB04B8 /* JoinTableViewController.swift */,
 				3FF12EA51C08222700AB04B8 /* CreateViewController.swift */,
@@ -430,12 +445,15 @@
 				331903771C11CFD70084C63B /* AHardDaysNight.m4a in Resources */,
 				3319038E1C11CFD70084C63B /* TicketToRide.m4a in Resources */,
 				3319037B1C11CFD70084C63B /* DayTripper.m4a in Resources */,
+				3319039B1C11EDFE0084C63B /* Peter.jpg in Resources */,
 				331903821C11CFD70084C63B /* HeyJude.m4a in Resources */,
 				3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */,
 				3319037F1C11CFD70084C63B /* GetBack.m4a in Resources */,
+				331903951C11E0EB0084C63B /* likeDeactivated.png in Resources */,
 				3319037C1C11CFD70084C63B /* EightDaysAWeek.m4a in Resources */,
 				2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */,
 				33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */,
+				331903971C11E0F30084C63B /* likeActivated.png in Resources */,
 				331903851C11CFD70084C63B /* LadyMadonna.m4a in Resources */,
 				3319038F1C11CFD70084C63B /* WeCanWorkItOut.m4a in Resources */,
 				3319038B1C11CFD70084C63B /* Something.m4a in Resources */,
@@ -453,6 +471,7 @@
 				331903901C11CFD70084C63B /* YellowSubmarine.m4a in Resources */,
 				331903791C11CFD70084C63B /* CantBuyMeLove.m4a in Resources */,
 				3319038C1C11CFD70084C63B /* TheBalladOfJohnAndYoko.m4a in Resources */,
+				331903931C11E0380084C63B /* downvote.png in Resources */,
 				331903871C11CFD70084C63B /* LoveMeDo.m4a in Resources */,
 				2CDBDF791C10119C00A289F1 /* Knul-Regular.otf in Resources */,
 				3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */,
@@ -494,6 +513,7 @@
 				3319035B1C11CF1E0084C63B /* Globals.swift in Sources */,
 				3384C5FE1C0552C7009DCC71 /* SessionViewController.swift in Sources */,
 				2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */,
+				331903991C11E43F0084C63B /* TestViewControllerPast.swift in Sources */,
 				3FF12EA81C08240A00AB04B8 /* TestViewController.swift in Sources */,
 				3F22143B1C0FB14D00FAB3D9 /* EmbededTableViewController.swift in Sources */,
 				3FF12EA21C081E8500AB04B8 /* HomeViewController.swift in Sources */,

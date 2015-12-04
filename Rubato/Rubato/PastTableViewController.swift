@@ -23,15 +23,15 @@ class PastTableViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "pastSessionPeterSegue") {
-            let destination = segue.destinationViewController as! TestViewController
+            let destination = segue.destinationViewController as! TestViewControllerPast
             destination.sessionName = "New Year's Eve Party"
         }
         if (segue.identifier == "pastSessionGioSegue") {
-            let destination = segue.destinationViewController as! TestViewController
+            let destination = segue.destinationViewController as! TestViewControllerPast
             destination.sessionName = "Big Sur Roadtrip"
         }
         if (segue.identifier == "pastSessionParkerSegue") {
-            let destination = segue.destinationViewController as! TestViewController
+            let destination = segue.destinationViewController as! TestViewControllerPast
             destination.sessionName = "Group Coding Music"
         }
     }
