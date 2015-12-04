@@ -36,6 +36,11 @@ UITableViewController {
     @IBAction func votePressed(sender: UIButton) {
         var base = Int()
         var label = UILabel()
+        var upvote = true
+        if sender.accessibilityHint == "down" {
+            upvote = false
+        }
+        print(sender.accessibilityHint! + " " + sender.accessibilityLabel!)
         switch sender.accessibilityLabel {
         case "1"?:
             print("1")
@@ -86,16 +91,30 @@ UITableViewController {
             break
         }
         
-        if Int(label.text!) > base {
-            let img : UIImage = UIImage(named: "voteDeactivated")!
-            sender.setImage(img,forState:UIControlState.Normal)
-            let count = Int(label.text!)! - 1
-            label.text = String(count)
+        if upvote {
+            if Int(label.text!) > base {
+                let img : UIImage = UIImage(named: "voteDeactivated")!
+                sender.setImage(img,forState:UIControlState.Normal)
+                let count = Int(label.text!)! - 1
+                label.text = String(count)
+            } else {
+                let img : UIImage = UIImage(named: "voteActivated")!
+                sender.setImage(img,forState:UIControlState.Normal)
+                let count = Int(label.text!)! + 1
+                label.text = String(count)
+            }
         } else {
-            let img : UIImage = UIImage(named: "voteActivated")!
-            sender.setImage(img,forState:UIControlState.Normal)
-            let count = Int(label.text!)! + 1
-            label.text = String(count)
+            if Int(label.text!) < base {
+                let img : UIImage = UIImage(named: "downvoteDeactivated")!
+                sender.setImage(img,forState:UIControlState.Normal)
+                let count = Int(label.text!)! + 1
+                label.text = String(count)
+            } else {
+                let img : UIImage = UIImage(named: "downvoteActivated")!
+                sender.setImage(img,forState:UIControlState.Normal)
+                let count = Int(label.text!)! - 1
+                label.text = String(count)
+            }
         }
         
     }

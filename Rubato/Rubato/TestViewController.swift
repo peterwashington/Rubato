@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol DestinationViewDelegate {
+    func addSong(songName: String)
+}
+
 class TestViewController: UIViewController {
 
     @IBOutlet var exitSessionButton: UIBarButtonItem!

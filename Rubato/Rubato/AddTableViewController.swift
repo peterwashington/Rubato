@@ -10,9 +10,10 @@ import UIKit
 
 protocol AddTableViewControllerDelegate{
     func controller(controller: AddTableViewController, didAddSong: String)
+    func addSong(songTitle: String)
 }
 
-class AddTableViewController: UITableViewController, UISearchResultsUpdating{
+class AddTableViewController: UITableViewController, UISearchResultsUpdating {
 
     var delegate: AddTableViewControllerDelegate?
     
