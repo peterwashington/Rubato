@@ -22,18 +22,18 @@ class JoinTableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if (segue.identifier == "joinSessionPeterSegue") {
-            let destination = segue.destinationViewController as! TestViewControllerJoined
-            destination.sessionName = "New Year's Eve Party"
-        }
-        if (segue.identifier == "joinSessionGioSegue") {
-            let destination = segue.destinationViewController as! TestViewControllerJoined
-            destination.sessionName = "Big Sur Roadtrip"
-        }
-        if (segue.identifier == "joinSessionParkerSegue") {
-            let destination = segue.destinationViewController as! TestViewControllerJoined
-            destination.sessionName = "Group Coding Music"
-        }
+//        if (segue.identifier == "joinSessionPeterSegue") {
+//            let destination = segue.destinationViewController as! TestViewControllerJoined
+//            destination.sessionName = "New Year's Eve Party"
+//        }
+//        if (segue.identifier == "joinSessionGioSegue") {
+//            let destination = segue.destinationViewController as! TestViewControllerJoined
+//            destination.sessionName = "Big Sur Roadtrip"
+//        }
+//        if (segue.identifier == "joinSessionParkerSegue") {
+//            let destination = segue.destinationViewController as! TestViewControllerJoined
+//            destination.sessionName = "Group Coding Music"
+//        }
     }
 
 }

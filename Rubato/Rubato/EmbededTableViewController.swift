@@ -31,12 +31,15 @@ class EmbededTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
     }
     
+    
 
 
     @IBAction func votePressed(sender: UIButton) {
         var base = Int()
         var label = UILabel()
+        
         var upvote = true
+        
         if sender.accessibilityHint == "down" {
             upvote = false
         }
@@ -44,7 +47,7 @@ class EmbededTableViewController: UITableViewController {
         switch sender.accessibilityLabel {
         case "1"?:
             print("1")
-            base = 55
+            base = 41
             label = vote1Count
             break
         case "2"?:
@@ -91,7 +94,7 @@ class EmbededTableViewController: UITableViewController {
             break
         }
         
-        if upvote {
+        if (upvote) {
             if Int(label.text!) > base {
                 let img : UIImage = UIImage(named: "voteDeactivated")!
                 sender.setImage(img,forState:UIControlState.Normal)
@@ -103,7 +106,8 @@ class EmbededTableViewController: UITableViewController {
                 let count = Int(label.text!)! + 1
                 label.text = String(count)
             }
-        } else {
+        }
+        else {
             if Int(label.text!) < base {
                 let img : UIImage = UIImage(named: "downvoteDeactivated")!
                 sender.setImage(img,forState:UIControlState.Normal)

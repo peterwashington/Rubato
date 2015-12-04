@@ -17,6 +17,13 @@ class TestViewControllerJoined: UIViewController {
     
     
     var sessionName = ""
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        currentPlayingSong.text? = Globals.CurrentInfo.currentSong
+        
+    }
 
 
 }

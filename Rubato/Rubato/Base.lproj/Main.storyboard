@@ -34,9 +34,9 @@
             <string>Knul-Medium</string>
             <string>Knul-Medium</string>
             <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
         </mutableArray>
         <mutableArray key="Knul-Regular.otf">
+            <string>Knul</string>
             <string>Knul</string>
             <string>Knul</string>
             <string>Knul</string>
@@ -371,10 +371,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gio" translatesAutoresizingMaskIntoConstraints="NO" id="wZu-wZ-AuE">
-                                                    <rect key="frame" x="14" y="-1" width="44" height="45"/>
-                                                    <animations/>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Big Sur Roadtrip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JC-Kx-iqz">
                                                     <rect key="frame" x="66" y="11" width="294" height="21"/>
                                                     <animations/>
@@ -382,6 +378,10 @@
                                                     <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gio" translatesAutoresizingMaskIntoConstraints="NO" id="wZu-wZ-AuE">
+                                                    <rect key="frame" x="14" y="-1" width="44" height="45"/>
+                                                    <animations/>
+                                                </imageView>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -711,14 +711,6 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Var-xh-f5O">
                                 <rect key="frame" x="0.0" y="547" width="375" height="120"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vb-iT-a5U">
-                                        <rect key="frame" x="300" y="34" width="50" height="50"/>
-                                        <animations/>
-                                        <state key="normal" image="add30"/>
-                                        <connections>
-                                            <segue destination="d70-B6-9D9" kind="show" id="cj6-7Y-5gr"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYN-9C-NOM">
                                         <rect key="frame" x="24" y="33" width="50" height="51"/>
                                         <animations/>
@@ -747,6 +739,14 @@
                                         <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vb-iT-a5U">
+                                        <rect key="frame" x="300" y="34" width="50" height="50"/>
+                                        <animations/>
+                                        <state key="normal" image="add30"/>
+                                        <connections>
+                                            <segue destination="d70-B6-9D9" kind="show" id="cj6-7Y-5gr"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="0.97521060391476289" alpha="1" colorSpace="calibratedWhite"/>
@@ -967,7 +967,7 @@
                             <tableViewSection headerTitle="New Year's Eve Party" id="ZNa-ii-no1">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="y0D-8C-UK8">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y0D-8C-UK8" id="tVG-xw-nRI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1001,7 +1001,7 @@
                             <tableViewSection headerTitle="Big Sur Roadtrip" id="MtI-fA-pwx">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="b10-e8-OHS">
-                                        <rect key="frame" x="0.0" y="100" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="164" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b10-e8-OHS" id="EdY-xT-gKW">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1035,7 +1035,7 @@
                             <tableViewSection headerTitle="Group Coding Music" id="0Wp-eI-VFv">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="qU7-Jm-HCS">
-                                        <rect key="frame" x="0.0" y="172" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="236" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qU7-Jm-HCS" id="Ewb-nK-nAK">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1128,23 +1128,17 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6el-7z-F8T">
                                 <rect key="frame" x="0.0" y="547" width="375" height="120"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7r-nX-bKC">
-                                        <rect key="frame" x="300" y="34" width="50" height="50"/>
-                                        <animations/>
-                                        <state key="normal" image="add30"/>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing. Click song to start!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHY-4B-Dma">
-                                        <rect key="frame" x="111" y="0.0" width="256" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event host has turned off adding songs." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHY-4B-Dma">
+                                        <rect key="frame" x="58" y="24" width="274" height="22"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
                                         <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now Playing:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVZ-1V-yMh">
-                                        <rect key="frame" x="-32" y="0.0" width="185" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vote for your favorite songs!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBa-3G-rve">
+                                        <rect key="frame" x="87" y="54" width="216" height="21"/>
+                                        <fontDescription key="fontDescription" name="Knul" family="Knul" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1221,13 +1215,6 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="k1X-s8-h9p"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="55" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvL-0j-VW5">
-                                                    <rect key="frame" x="289" y="11" width="14" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDx-TI-gZ8">
                                                     <rect key="frame" x="311" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1244,6 +1231,13 @@
                                                         <action selector="getBack:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="P6g-h7-3kA"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="41" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvL-0j-VW5">
+                                                    <rect key="frame" x="289" y="10" width="14" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1934,10 +1928,10 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="k8M-UM-eV9"/>
-        <segue reference="JaY-e2-9uS"/>
+        <segue reference="zBZ-Od-4BB"/>
         <segue reference="zq6-zX-tkH"/>
         <segue reference="O8L-Va-hnh"/>
-        <segue reference="mAS-Mn-or1"/>
+        <segue reference="8br-TZ-j9D"/>
         <segue reference="OxS-8L-QxW"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
