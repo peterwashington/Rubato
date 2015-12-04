@@ -16,6 +16,35 @@
 		2CDBDF771C10119400A289F1 /* Knul-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBDF761C10119400A289F1 /* Knul-Medium.otf */; };
 		2CDBDF791C10119C00A289F1 /* Knul-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBDF781C10119C00A289F1 /* Knul-Regular.otf */; };
 		2CDBDF7B1C1011A100A289F1 /* Knul-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBDF7A1C1011A100A289F1 /* Knul-Light.otf */; };
+		331903581C11CDD90084C63B /* TheBeatlesOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 331903571C11CDD90084C63B /* TheBeatlesOne.jpg */; };
+		3319035B1C11CF1E0084C63B /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3319035A1C11CF1E0084C63B /* Globals.swift */; };
+		331903771C11CFD70084C63B /* AHardDaysNight.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319035C1C11CFD70084C63B /* AHardDaysNight.m4a */; };
+		331903781C11CFD70084C63B /* AllYouNeedIsLove.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319035D1C11CFD70084C63B /* AllYouNeedIsLove.m4a */; };
+		331903791C11CFD70084C63B /* CantBuyMeLove.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319035E1C11CFD70084C63B /* CantBuyMeLove.m4a */; };
+		3319037A1C11CFD70084C63B /* ComeTogether.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319035F1C11CFD70084C63B /* ComeTogether.m4a */; };
+		3319037B1C11CFD70084C63B /* DayTripper.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903601C11CFD70084C63B /* DayTripper.m4a */; };
+		3319037C1C11CFD70084C63B /* EightDaysAWeek.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903611C11CFD70084C63B /* EightDaysAWeek.m4a */; };
+		3319037D1C11CFD70084C63B /* EleanorRigby.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903621C11CFD70084C63B /* EleanorRigby.m4a */; };
+		3319037E1C11CFD70084C63B /* FromMeToYou.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903631C11CFD70084C63B /* FromMeToYou.m4a */; };
+		3319037F1C11CFD70084C63B /* GetBack.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903641C11CFD70084C63B /* GetBack.m4a */; };
+		331903801C11CFD70084C63B /* HelloGoodbye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903651C11CFD70084C63B /* HelloGoodbye.m4a */; };
+		331903811C11CFD70084C63B /* Help.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903661C11CFD70084C63B /* Help.m4a */; };
+		331903821C11CFD70084C63B /* HeyJude.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903671C11CFD70084C63B /* HeyJude.m4a */; };
+		331903831C11CFD70084C63B /* IFeelFine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903681C11CFD70084C63B /* IFeelFine.m4a */; };
+		331903841C11CFD70084C63B /* IWantToHoldYourHand.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903691C11CFD70084C63B /* IWantToHoldYourHand.m4a */; };
+		331903851C11CFD70084C63B /* LadyMadonna.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319036A1C11CFD70084C63B /* LadyMadonna.m4a */; };
+		331903861C11CFD70084C63B /* LetItBe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319036B1C11CFD70084C63B /* LetItBe.m4a */; };
+		331903871C11CFD70084C63B /* LoveMeDo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319036C1C11CFD70084C63B /* LoveMeDo.m4a */; };
+		331903881C11CFD70084C63B /* PaperbackRider.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319036D1C11CFD70084C63B /* PaperbackRider.m4a */; };
+		331903891C11CFD70084C63B /* PennyLane.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319036E1C11CFD70084C63B /* PennyLane.m4a */; };
+		3319038A1C11CFD70084C63B /* SheLovesYou.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3319036F1C11CFD70084C63B /* SheLovesYou.m4a */; };
+		3319038B1C11CFD70084C63B /* Something.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903701C11CFD70084C63B /* Something.m4a */; };
+		3319038C1C11CFD70084C63B /* TheBalladOfJohnAndYoko.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903711C11CFD70084C63B /* TheBalladOfJohnAndYoko.m4a */; };
+		3319038D1C11CFD70084C63B /* TheLongAndWindingRoad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903721C11CFD70084C63B /* TheLongAndWindingRoad.m4a */; };
+		3319038E1C11CFD70084C63B /* TicketToRide.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903731C11CFD70084C63B /* TicketToRide.m4a */; };
+		3319038F1C11CFD70084C63B /* WeCanWorkItOut.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903741C11CFD70084C63B /* WeCanWorkItOut.m4a */; };
+		331903901C11CFD70084C63B /* YellowSubmarine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903751C11CFD70084C63B /* YellowSubmarine.m4a */; };
+		331903911C11CFD70084C63B /* Yesterday.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 331903761C11CFD70084C63B /* Yesterday.m4a */; };
 		3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F51C054D9F009DCC71 /* Song1.m4a */; };
 		3384C5F81C054DE4009DCC71 /* Song2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F71C054DE4009DCC71 /* Song2.m4a */; };
 		3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F91C054DF8009DCC71 /* Song3.m4a */; };
@@ -72,6 +101,35 @@
 		2CDBDF761C10119400A289F1 /* Knul-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Knul-Medium.otf"; path = "Rubato/SupportingFiles/Knul-Medium.otf"; sourceTree = "<group>"; };
 		2CDBDF781C10119C00A289F1 /* Knul-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Knul-Regular.otf"; path = "Rubato/SupportingFiles/Knul-Regular.otf"; sourceTree = "<group>"; };
 		2CDBDF7A1C1011A100A289F1 /* Knul-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Knul-Light.otf"; path = "Rubato/SupportingFiles/Knul-Light.otf"; sourceTree = "<group>"; };
+		331903571C11CDD90084C63B /* TheBeatlesOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheBeatlesOne.jpg; sourceTree = "<group>"; };
+		3319035A1C11CF1E0084C63B /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		3319035C1C11CFD70084C63B /* AHardDaysNight.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AHardDaysNight.m4a; sourceTree = "<group>"; };
+		3319035D1C11CFD70084C63B /* AllYouNeedIsLove.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AllYouNeedIsLove.m4a; sourceTree = "<group>"; };
+		3319035E1C11CFD70084C63B /* CantBuyMeLove.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = CantBuyMeLove.m4a; sourceTree = "<group>"; };
+		3319035F1C11CFD70084C63B /* ComeTogether.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComeTogether.m4a; sourceTree = "<group>"; };
+		331903601C11CFD70084C63B /* DayTripper.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = DayTripper.m4a; sourceTree = "<group>"; };
+		331903611C11CFD70084C63B /* EightDaysAWeek.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EightDaysAWeek.m4a; sourceTree = "<group>"; };
+		331903621C11CFD70084C63B /* EleanorRigby.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EleanorRigby.m4a; sourceTree = "<group>"; };
+		331903631C11CFD70084C63B /* FromMeToYou.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FromMeToYou.m4a; sourceTree = "<group>"; };
+		331903641C11CFD70084C63B /* GetBack.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = GetBack.m4a; sourceTree = "<group>"; };
+		331903651C11CFD70084C63B /* HelloGoodbye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloGoodbye.m4a; sourceTree = "<group>"; };
+		331903661C11CFD70084C63B /* Help.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Help.m4a; sourceTree = "<group>"; };
+		331903671C11CFD70084C63B /* HeyJude.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = HeyJude.m4a; sourceTree = "<group>"; };
+		331903681C11CFD70084C63B /* IFeelFine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = IFeelFine.m4a; sourceTree = "<group>"; };
+		331903691C11CFD70084C63B /* IWantToHoldYourHand.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = IWantToHoldYourHand.m4a; sourceTree = "<group>"; };
+		3319036A1C11CFD70084C63B /* LadyMadonna.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = LadyMadonna.m4a; sourceTree = "<group>"; };
+		3319036B1C11CFD70084C63B /* LetItBe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = LetItBe.m4a; sourceTree = "<group>"; };
+		3319036C1C11CFD70084C63B /* LoveMeDo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoveMeDo.m4a; sourceTree = "<group>"; };
+		3319036D1C11CFD70084C63B /* PaperbackRider.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = PaperbackRider.m4a; sourceTree = "<group>"; };
+		3319036E1C11CFD70084C63B /* PennyLane.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = PennyLane.m4a; sourceTree = "<group>"; };
+		3319036F1C11CFD70084C63B /* SheLovesYou.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SheLovesYou.m4a; sourceTree = "<group>"; };
+		331903701C11CFD70084C63B /* Something.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Something.m4a; sourceTree = "<group>"; };
+		331903711C11CFD70084C63B /* TheBalladOfJohnAndYoko.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheBalladOfJohnAndYoko.m4a; sourceTree = "<group>"; };
+		331903721C11CFD70084C63B /* TheLongAndWindingRoad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheLongAndWindingRoad.m4a; sourceTree = "<group>"; };
+		331903731C11CFD70084C63B /* TicketToRide.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TicketToRide.m4a; sourceTree = "<group>"; };
+		331903741C11CFD70084C63B /* WeCanWorkItOut.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeCanWorkItOut.m4a; sourceTree = "<group>"; };
+		331903751C11CFD70084C63B /* YellowSubmarine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = YellowSubmarine.m4a; sourceTree = "<group>"; };
+		331903761C11CFD70084C63B /* Yesterday.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yesterday.m4a; sourceTree = "<group>"; };
 		334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
 		3384C5F51C054D9F009DCC71 /* Song1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song1.m4a; sourceTree = "<group>"; };
 		3384C5F71C054DE4009DCC71 /* Song2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song2.m4a; sourceTree = "<group>"; };
@@ -148,6 +206,33 @@
 		3384C5F41C054D90009DCC71 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				3319035C1C11CFD70084C63B /* AHardDaysNight.m4a */,
+				3319035D1C11CFD70084C63B /* AllYouNeedIsLove.m4a */,
+				3319035E1C11CFD70084C63B /* CantBuyMeLove.m4a */,
+				3319035F1C11CFD70084C63B /* ComeTogether.m4a */,
+				331903601C11CFD70084C63B /* DayTripper.m4a */,
+				331903611C11CFD70084C63B /* EightDaysAWeek.m4a */,
+				331903621C11CFD70084C63B /* EleanorRigby.m4a */,
+				331903631C11CFD70084C63B /* FromMeToYou.m4a */,
+				331903641C11CFD70084C63B /* GetBack.m4a */,
+				331903651C11CFD70084C63B /* HelloGoodbye.m4a */,
+				331903661C11CFD70084C63B /* Help.m4a */,
+				331903671C11CFD70084C63B /* HeyJude.m4a */,
+				331903681C11CFD70084C63B /* IFeelFine.m4a */,
+				331903691C11CFD70084C63B /* IWantToHoldYourHand.m4a */,
+				3319036A1C11CFD70084C63B /* LadyMadonna.m4a */,
+				3319036B1C11CFD70084C63B /* LetItBe.m4a */,
+				3319036C1C11CFD70084C63B /* LoveMeDo.m4a */,
+				3319036D1C11CFD70084C63B /* PaperbackRider.m4a */,
+				3319036E1C11CFD70084C63B /* PennyLane.m4a */,
+				3319036F1C11CFD70084C63B /* SheLovesYou.m4a */,
+				331903701C11CFD70084C63B /* Something.m4a */,
+				331903711C11CFD70084C63B /* TheBalladOfJohnAndYoko.m4a */,
+				331903721C11CFD70084C63B /* TheLongAndWindingRoad.m4a */,
+				331903731C11CFD70084C63B /* TicketToRide.m4a */,
+				331903741C11CFD70084C63B /* WeCanWorkItOut.m4a */,
+				331903751C11CFD70084C63B /* YellowSubmarine.m4a */,
+				331903761C11CFD70084C63B /* Yesterday.m4a */,
 				3384C5F91C054DF8009DCC71 /* Song3.m4a */,
 				3384C5F71C054DE4009DCC71 /* Song2.m4a */,
 				3384C5F51C054D9F009DCC71 /* Song1.m4a */,
@@ -205,11 +290,13 @@
 				3FF12EA51C08222700AB04B8 /* CreateViewController.swift */,
 				3F3952131BFD7A2C0035F5EE /* CreateSessionController.swift */,
 				33D097001BF0205E00E6A3F1 /* Images.xcassets */,
+				331903571C11CDD90084C63B /* TheBeatlesOne.jpg */,
 				33D097051BF0205E00E6A3F1 /* Info.plist */,
 				33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */,
 				33D096FD1BF0205E00E6A3F1 /* Rubato.xcdatamodeld */,
 				3384C5FB1C0550D1009DCC71 /* JoinViewController.swift */,
 				3384C5FD1C0552C7009DCC71 /* SessionViewController.swift */,
+				3319035A1C11CF1E0084C63B /* Globals.swift */,
 			);
 			path = Rubato;
 			sourceTree = "<group>";
@@ -337,16 +424,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331903881C11CFD70084C63B /* PaperbackRider.m4a in Resources */,
+				331903911C11CFD70084C63B /* Yesterday.m4a in Resources */,
 				2CDBDF7B1C1011A100A289F1 /* Knul-Light.otf in Resources */,
+				331903771C11CFD70084C63B /* AHardDaysNight.m4a in Resources */,
+				3319038E1C11CFD70084C63B /* TicketToRide.m4a in Resources */,
+				3319037B1C11CFD70084C63B /* DayTripper.m4a in Resources */,
+				331903821C11CFD70084C63B /* HeyJude.m4a in Resources */,
 				3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */,
+				3319037F1C11CFD70084C63B /* GetBack.m4a in Resources */,
+				3319037C1C11CFD70084C63B /* EightDaysAWeek.m4a in Resources */,
 				2CD188C51BFBE7B800857A47 /* SupportingFiles in Resources */,
 				33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */,
+				331903851C11CFD70084C63B /* LadyMadonna.m4a in Resources */,
+				3319038F1C11CFD70084C63B /* WeCanWorkItOut.m4a in Resources */,
+				3319038B1C11CFD70084C63B /* Something.m4a in Resources */,
+				331903841C11CFD70084C63B /* IWantToHoldYourHand.m4a in Resources */,
+				3319037A1C11CFD70084C63B /* ComeTogether.m4a in Resources */,
+				331903891C11CFD70084C63B /* PennyLane.m4a in Resources */,
+				331903581C11CDD90084C63B /* TheBeatlesOne.jpg in Resources */,
+				331903781C11CFD70084C63B /* AllYouNeedIsLove.m4a in Resources */,
+				331903811C11CFD70084C63B /* Help.m4a in Resources */,
+				331903861C11CFD70084C63B /* LetItBe.m4a in Resources */,
+				3319038A1C11CFD70084C63B /* SheLovesYou.m4a in Resources */,
 				33D097011BF0205E00E6A3F1 /* Images.xcassets in Resources */,
+				3319038D1C11CFD70084C63B /* TheLongAndWindingRoad.m4a in Resources */,
 				33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */,
+				331903901C11CFD70084C63B /* YellowSubmarine.m4a in Resources */,
+				331903791C11CFD70084C63B /* CantBuyMeLove.m4a in Resources */,
+				3319038C1C11CFD70084C63B /* TheBalladOfJohnAndYoko.m4a in Resources */,
+				331903871C11CFD70084C63B /* LoveMeDo.m4a in Resources */,
 				2CDBDF791C10119C00A289F1 /* Knul-Regular.otf in Resources */,
 				3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */,
 				2CDBDF771C10119400A289F1 /* Knul-Medium.otf in Resources */,
 				3384C5F81C054DE4009DCC71 /* Song2.m4a in Resources */,
+				331903831C11CFD70084C63B /* IFeelFine.m4a in Resources */,
+				3319037E1C11CFD70084C63B /* FromMeToYou.m4a in Resources */,
+				331903801C11CFD70084C63B /* HelloGoodbye.m4a in Resources */,
+				3319037D1C11CFD70084C63B /* EleanorRigby.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +491,7 @@
 				3384C5FC1C0550D1009DCC71 /* JoinViewController.swift in Sources */,
 				2C38A3401C0BEE34008AB09F /* SessionSongListTableViewController.swift in Sources */,
 				2C05D1C91C0D322000BFBDF6 /* PlaySongViewController.swift in Sources */,
+				3319035B1C11CF1E0084C63B /* Globals.swift in Sources */,
 				3384C5FE1C0552C7009DCC71 /* SessionViewController.swift in Sources */,
 				2CD40C661BFE792500C3A3BE /* HomeController.swift in Sources */,
 				3FF12EA81C08240A00AB04B8 /* TestViewController.swift in Sources */,

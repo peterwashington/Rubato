@@ -12,7 +12,7 @@ import AVFoundation
 
 class SessionViewController: UIViewController {
     
-    var audioPlayer:AVAudioPlayer!
+    
     
     
     @IBAction func playSong1(sender: AnyObject) {

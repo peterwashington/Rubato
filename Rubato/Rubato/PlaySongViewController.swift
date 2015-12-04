@@ -7,9 +7,32 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PlaySongViewController: UIViewController {
 
+    
+    @IBOutlet weak var currSong: UILabel!
+    
+    
+    @IBAction func playButton(sender: AnyObject) {
+        
+        let audioPath = NSBundle.mainBundle().pathForResource("HeyJude", ofType: "m4a")
+        
+        do {
+            // Preparation
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+            
+            // Play the sound.
+            try audioPlayer = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath!))
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        } catch {
+        }
+        
+    }
+    
    
     override func viewDidLoad() {
         super.viewDidLoad()
