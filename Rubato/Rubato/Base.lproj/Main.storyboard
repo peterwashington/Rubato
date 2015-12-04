@@ -35,18 +35,8 @@
             <string>Knul-Medium</string>
             <string>Knul-Medium</string>
             <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
-            <string>Knul-Medium</string>
         </mutableArray>
         <mutableArray key="Knul-Regular.otf">
-            <string>Knul</string>
             <string>Knul</string>
             <string>Knul</string>
             <string>Knul</string>
@@ -298,12 +288,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="YiK-dO-XM0">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="0Ae-cV-VDQ"/>
-                        <barButtonItem key="rightBarButtonItem" title="Logout" id="6Zi-3V-cbJ" userLabel="Logout"/>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="logoutButton" destination="6Zi-3V-cbJ" id="rJD-tc-NH4"/>
                         <outlet property="menuButton" destination="0Ae-cV-VDQ" id="iP2-P2-o0r"/>
                         <outlet property="welcomeText" destination="Y3Y-TR-dL8" id="Vf6-AT-NWh"/>
                     </connections>
@@ -856,7 +844,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="luC-wb-xMl">
-                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="luC-wb-xMl" id="QdS-sO-SbI">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -880,7 +868,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RTZ-LW-Mqw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-643.5" y="20.5"/>
+            <point key="canvasLocation" x="-75.5" y="1564.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tsP-yp-8Oc">
@@ -1118,10 +1106,10 @@
             </objects>
             <point key="canvasLocation" x="-2563.5" y="2042.5"/>
         </scene>
-        <!--Test View Controller-->
+        <!--Test View Controller Joined-->
         <scene sceneID="cV3-GY-sIH">
             <objects>
-                <viewController id="iqr-YP-ve8" customClass="TestViewController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iqr-YP-ve8" customClass="TestViewControllerJoined" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8hR-i1-FMJ"/>
                         <viewControllerLayoutGuide type="bottom" id="odZ-6a-IfV"/>
@@ -1145,14 +1133,6 @@
                                         <animations/>
                                         <state key="normal" image="add30"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6h-02-XzX">
-                                        <rect key="frame" x="24" y="33" width="50" height="51"/>
-                                        <animations/>
-                                        <state key="normal" title="Player" image="player"/>
-                                        <connections>
-                                            <segue destination="WIE-1M-3vz" kind="show" id="Hpf-GL-7if"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing. Click song to start!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHY-4B-Dma">
                                         <rect key="frame" x="111" y="0.0" width="256" height="21"/>
                                         <animations/>
@@ -1164,12 +1144,6 @@
                                         <rect key="frame" x="-32" y="0.0" width="185" height="21"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Admin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miN-Ou-BrM">
-                                        <rect key="frame" x="24" y="84" width="49" height="21"/>
-                                        <fontDescription key="fontDescription" name="Knul" family="Knul" pointSize="18"/>
                                         <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1192,21 +1166,16 @@
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="exitSessionButton" destination="Zva-gL-UBe" id="384-iC-JYQ"/>
-                        <outlet property="menuButton" destination="Zva-gL-UBe" id="dm3-ac-bFN"/>
-                        <outlet property="sessionNavigationItem" destination="JWE-Lp-ohb" id="UGX-ib-xpm"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouA-HH-umj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1519.5" y="2042.5"/>
+            <point key="canvasLocation" x="-1431.5" y="2058.5"/>
         </scene>
         <!--Embeded Table View Controller-->
         <scene sceneID="cr3-o4-u1f">
             <objects>
                 <tableViewController id="3oY-Ft-5CW" customClass="EmbededTableViewController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="muM-Vc-Kzm">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="reuse_ident" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="muM-Vc-Kzm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
@@ -1221,15 +1190,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peter" translatesAutoresizingMaskIntoConstraints="NO" id="b5J-b9-y2b">
-                                                    <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
-                                                    <animations/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q9-KS-knJ">
-                                                    <rect key="frame" x="52" y="11" width="212" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upvote or Downvote Songs!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q9-KS-knJ">
+                                                    <rect key="frame" x="93" y="11" width="212" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1237,7 +1201,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ssv-fL-LMi">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuse_ident" id="Ssv-fL-LMi">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ssv-fL-LMi" id="89T-Gz-bwj">
@@ -1248,13 +1212,6 @@
                                                     <rect key="frame" x="0.0" y="-1" width="44" height="45"/>
                                                     <animations/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRT-Vy-G0l">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdR-rh-kSb">
                                                     <rect key="frame" x="343" y="10" width="24" height="24"/>
                                                     <animations/>
@@ -1264,8 +1221,8 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="k1X-s8-h9p"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvL-0j-VW5">
-                                                    <rect key="frame" x="290" y="11" width="13" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="55" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvL-0j-VW5">
+                                                    <rect key="frame" x="289" y="11" width="14" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1278,6 +1235,13 @@
                                                     <state key="normal" title="Vote" image="voteDeactivated"/>
                                                     <connections>
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="Sry-ZO-opw"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PO7-wI-aCj">
+                                                    <rect key="frame" x="52" y="7" width="229" height="30"/>
+                                                    <state key="normal" title="Get Back - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="getBack:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="P6g-h7-3kA"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -1314,20 +1278,20 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="0dF-nU-jeD"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djs-Y8-YXG">
-                                                    <rect key="frame" x="290" y="11" width="13" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djs-Y8-YXG">
+                                                    <rect key="frame" x="289" y="11" width="14" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tws-BW-RA4">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTw-Lq-4tq">
+                                                    <rect key="frame" x="52" y="5" width="229" height="30"/>
+                                                    <state key="normal" title="From Me To You - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="fromMeToYou:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="yjy-aU-zFk"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1362,20 +1326,20 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="yF5-3H-evv"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITd-vK-r3v">
-                                                    <rect key="frame" x="292" y="11" width="13" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITd-vK-r3v">
+                                                    <rect key="frame" x="291" y="11" width="14" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRu-2a-Tpt">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G90-O4-lE1">
+                                                    <rect key="frame" x="52" y="5" width="231" height="30"/>
+                                                    <state key="normal" title="Love Me Do - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="loveMeDo:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="6dg-t4-kvz"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1410,20 +1374,20 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="eTp-zd-xgE"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aga-NL-xQW">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aga-NL-xQW">
                                                     <rect key="frame" x="290" y="10" width="13" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHV-WR-EmI">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVm-dP-y7X">
+                                                    <rect key="frame" x="52" y="4" width="235" height="30"/>
+                                                    <state key="normal" title="Come Together - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="comeTogether:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="nqF-mI-W90"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1449,7 +1413,7 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="vmn-sc-LfP"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7u-h6-szg">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7u-h6-szg">
                                                     <rect key="frame" x="291" y="11" width="13" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -1465,13 +1429,13 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="hAr-4I-WhM"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eof-4k-0WU">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdM-B7-0TL">
+                                                    <rect key="frame" x="52" y="5" width="235" height="30"/>
+                                                    <state key="normal" title="All You Need Is Love - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="allYouNeedIsLove:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="95N-Dl-UJH"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1497,7 +1461,7 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="jTn-iX-aEb"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PM2-rO-bIa">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PM2-rO-bIa">
                                                     <rect key="frame" x="290" y="11" width="13" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -1513,13 +1477,13 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="vfW-Y0-8zH"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Dr-Qr-0pf">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BP-xV-0Dl">
+                                                    <rect key="frame" x="52" y="5" width="236" height="30"/>
+                                                    <state key="normal" title="She Loves You - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="sheLovesYou:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="Nh6-Vy-z3V"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1545,18 +1509,11 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="EeG-T9-8fn"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96k-Gj-qnY">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96k-Gj-qnY">
                                                     <rect key="frame" x="290" y="11" width="13" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8te-fK-sSO">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uU-xh-Y60">
@@ -1566,6 +1523,13 @@
                                                     <state key="normal" title="Vote" image="downvoteDeactivated"/>
                                                     <connections>
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="NKR-b2-XIL"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iuB-rT-EIm">
+                                                    <rect key="frame" x="52" y="8" width="230" height="30"/>
+                                                    <state key="normal" title="Something - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="something:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="YMz-Gu-Zuo"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -1602,20 +1566,20 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="G38-KT-bru"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GtE-wC-fQ9">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GtE-wC-fQ9">
                                                     <rect key="frame" x="290" y="11" width="13" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDu-g0-nyt">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEk-hd-L4b">
+                                                    <rect key="frame" x="52" y="3" width="237" height="30.5"/>
+                                                    <state key="normal" title="Ticket To Ride - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="ticketToRide:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="WWr-go-kMK"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1657,13 +1621,13 @@
                                                         <action selector="votePressed:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="n1a-5u-fLZ"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuT-sJ-NGW">
-                                                    <rect key="frame" x="52" y="11" width="214" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                                    <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eo-tU-gZa">
+                                                    <rect key="frame" x="52" y="2" width="236" height="30"/>
+                                                    <state key="normal" title="A Hard Day's Night - The Beatles"/>
+                                                    <connections>
+                                                        <action selector="aHardDaysNight:" destination="3oY-Ft-5CW" eventType="touchUpInside" id="6B2-F7-Hwa"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1680,6 +1644,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="tableView" destination="muM-Vc-Kzm" id="dZW-C8-IC1"/>
                         <outlet property="vote1Count" destination="wvL-0j-VW5" id="2Km-Mn-Ele"/>
                         <outlet property="vote2Count" destination="djs-Y8-YXG" id="lh4-fS-LlM"/>
                         <outlet property="vote3Count" destination="ITd-vK-r3v" id="LUm-RI-lIN"/>
@@ -1694,41 +1659,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3cA-hU-RYo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-921.5" y="1543.5"/>
-        </scene>
-        <!--Search Songs-->
-        <scene sceneID="RN1-WD-p4J">
-            <objects>
-                <tableViewController id="irn-Y4-Y41" customClass="AddTableViewController" customModule="Rubato" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="fhc-Rs-pyK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="oby-wK-Hc2">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oby-wK-Hc2" id="RZt-TM-7rf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
-                                </tableViewCellContentView>
-                                <animations/>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="irn-Y4-Y41" id="8gt-0f-zUU"/>
-                            <outlet property="delegate" destination="irn-Y4-Y41" id="P02-Uq-TXR"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Search Songs" id="Mj7-yC-sgC"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J4u-Lg-mhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1750.5" y="3302.5"/>
+            <point key="canvasLocation" x="-985.5" y="1287.5"/>
         </scene>
         <!--Test View Controller Past-->
         <scene sceneID="bNh-OO-e22">
@@ -1976,7 +1907,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LjW-8A-A3h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-409.5" y="2699.5"/>
+            <point key="canvasLocation" x="-313.5" y="2995.5"/>
         </scene>
     </scenes>
     <resources>
@@ -2002,12 +1933,12 @@
         <image name="voteDeactivated" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yH0-G7-II0"/>
-        <segue reference="mAS-Mn-or1"/>
+        <segue reference="k8M-UM-eV9"/>
+        <segue reference="JaY-e2-9uS"/>
         <segue reference="zq6-zX-tkH"/>
         <segue reference="O8L-Va-hnh"/>
-        <segue reference="nUk-qn-zKg"/>
-        <segue reference="rAr-8W-FbD"/>
+        <segue reference="mAS-Mn-or1"/>
+        <segue reference="OxS-8L-QxW"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
 </document>

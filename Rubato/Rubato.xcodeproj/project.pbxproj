@@ -50,6 +50,7 @@
 		331903971C11E0F30084C63B /* likeActivated.png in Resources */ = {isa = PBXBuildFile; fileRef = 331903961C11E0F30084C63B /* likeActivated.png */; };
 		331903991C11E43F0084C63B /* TestViewControllerPast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331903981C11E43F0084C63B /* TestViewControllerPast.swift */; };
 		3319039B1C11EDFE0084C63B /* Peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3319039A1C11EDFE0084C63B /* Peter.jpg */; };
+		331903A11C1207150084C63B /* TestViewControllerJoined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331903A01C1207150084C63B /* TestViewControllerJoined.swift */; };
 		3384C5F61C054D9F009DCC71 /* Song1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F51C054D9F009DCC71 /* Song1.m4a */; };
 		3384C5F81C054DE4009DCC71 /* Song2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F71C054DE4009DCC71 /* Song2.m4a */; };
 		3384C5FA1C054DF8009DCC71 /* Song3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3384C5F91C054DF8009DCC71 /* Song3.m4a */; };
@@ -140,6 +141,7 @@
 		331903961C11E0F30084C63B /* likeActivated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeActivated.png; sourceTree = "<group>"; };
 		331903981C11E43F0084C63B /* TestViewControllerPast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewControllerPast.swift; sourceTree = "<group>"; };
 		3319039A1C11EDFE0084C63B /* Peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Peter.jpg; sourceTree = "<group>"; };
+		331903A01C1207150084C63B /* TestViewControllerJoined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewControllerJoined.swift; sourceTree = "<group>"; };
 		334F45881BFD9AFD00AC6878 /* Rubato-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rubato-Bridging-Header.h"; sourceTree = "<group>"; };
 		3384C5F51C054D9F009DCC71 /* Song1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song1.m4a; sourceTree = "<group>"; };
 		3384C5F71C054DE4009DCC71 /* Song2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Song2.m4a; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 				3319039A1C11EDFE0084C63B /* Peter.jpg */,
 				3FF12EA71C08240A00AB04B8 /* TestViewController.swift */,
 				331903981C11E43F0084C63B /* TestViewControllerPast.swift */,
+				331903A01C1207150084C63B /* TestViewControllerJoined.swift */,
 				3FF12EA11C081E8500AB04B8 /* HomeViewController.swift */,
 				3FF12EA31C08218500AB04B8 /* JoinTableViewController.swift */,
 				3FF12EA51C08222700AB04B8 /* CreateViewController.swift */,
@@ -516,6 +519,7 @@
 				331903991C11E43F0084C63B /* TestViewControllerPast.swift in Sources */,
 				3FF12EA81C08240A00AB04B8 /* TestViewController.swift in Sources */,
 				3F22143B1C0FB14D00FAB3D9 /* EmbededTableViewController.swift in Sources */,
+				331903A11C1207150084C63B /* TestViewControllerJoined.swift in Sources */,
 				3FF12EA21C081E8500AB04B8 /* HomeViewController.swift in Sources */,
 				3FF12EB01C086A7F00AB04B8 /* PastTableViewController.swift in Sources */,
 				2CD188D21BFBEC4700857A47 /* SWRevealViewController.m in Sources */,
