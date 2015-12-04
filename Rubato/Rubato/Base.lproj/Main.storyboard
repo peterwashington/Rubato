@@ -49,6 +49,8 @@
             <string>Knul</string>
             <string>Knul</string>
             <string>Knul</string>
+            <string>Knul</string>
+            <string>Knul</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -762,7 +764,7 @@
                                 <color key="backgroundColor" white="0.97521060391476289" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="reuse" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cp3-vU-Xvz">
-                                <rect key="frame" x="0.0" y="70" width="375" height="462"/>
+                                <rect key="frame" x="0.0" y="119" width="375" height="426"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" textLabel="Cid-LJ-nWh" detailTextLabel="u3p-TM-geP" imageView="l3w-V8-lY2" rowHeight="45" style="IBUITableViewCellStyleSubtitle" id="5NL-1r-VJ8">
@@ -799,6 +801,23 @@
                                     <outlet property="delegate" destination="0mM-SL-783" id="U65-he-rhJ"/>
                                 </connections>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOF-07-tZB">
+                                <rect key="frame" x="147" y="0.0" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To override the playlist, simply click on a song" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c85-nJ-si0">
+                                <rect key="frame" x="20" y="90" width="350" height="21"/>
+                                <fontDescription key="fontDescription" name="Knul" family="Knul" pointSize="17"/>
+                                <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event Host Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ga-KO-rkT">
+                                <rect key="frame" x="108" y="72" width="159" height="21"/>
+                                <fontDescription key="fontDescription" name="Knul" family="Knul" pointSize="19"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
@@ -837,7 +856,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="luC-wb-xMl">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="luC-wb-xMl" id="QdS-sO-SbI">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1727,43 +1746,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
                             </containerView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iAB-1G-QV4">
-                                <rect key="frame" x="0.0" y="547" width="375" height="120"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaS-9t-loR">
-                                        <rect key="frame" x="146" y="34" width="50" height="51"/>
-                                        <animations/>
-                                        <state key="normal" title="Player" image="player"/>
-                                        <connections>
-                                            <segue destination="WIE-1M-3vz" kind="show" id="mAS-Mn-or1">
-                                                <nil key="action"/>
-                                            </segue>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing. Click song to start!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0k-5K-D7z">
-                                        <rect key="frame" x="110" y="4" width="257" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now Playing:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lun-Oq-nXA">
-                                        <rect key="frame" x="-31" y="4" width="185" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View Song Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVv-Sy-g8O">
-                                        <rect key="frame" x="105" y="83" width="132" height="22"/>
-                                        <fontDescription key="fontDescription" name="Knul" family="Knul" pointSize="18"/>
-                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <animations/>
-                                <color key="backgroundColor" white="0.97521060390000003" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DwF-h1-lgJ">
                                 <rect key="frame" x="0.0" y="64" width="375" height="423"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1858,6 +1840,43 @@
                                     <outlet property="delegate" destination="ivJ-E6-Ddd" id="Ew9-hZ-6ch"/>
                                 </connections>
                             </tableView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iAB-1G-QV4">
+                                <rect key="frame" x="0.0" y="547" width="375" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaS-9t-loR">
+                                        <rect key="frame" x="16" y="34" width="50" height="51"/>
+                                        <animations/>
+                                        <state key="normal" title="Player" image="player"/>
+                                        <connections>
+                                            <segue destination="WIE-1M-3vz" kind="show" id="mAS-Mn-or1">
+                                                <nil key="action"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing. Click song to start!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0k-5K-D7z">
+                                        <rect key="frame" x="110" y="4" width="257" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now Playing:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lun-Oq-nXA">
+                                        <rect key="frame" x="-31" y="4" width="185" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View Song Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVv-Sy-g8O">
+                                        <rect key="frame" x="8" y="83" width="132" height="22"/>
+                                        <fontDescription key="fontDescription" name="Knul" family="Knul" pointSize="18"/>
+                                        <color key="textColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.97521060390000003" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -1927,13 +1946,6 @@
                                 <rect key="frame" x="25" y="637" width="15" height="15"/>
                                 <animations/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title - Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7U-eO-8ul">
-                                <rect key="frame" x="95" y="467" width="185" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
-                                <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8W-E5-YEn">
                                 <rect key="frame" x="156" y="513" width="62" height="65"/>
                                 <animations/>
@@ -1942,6 +1954,13 @@
                                     <action selector="playButton:" destination="WIE-1M-3vz" eventType="touchUpInside" id="2Lr-AB-2I9"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No songs playing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7U-eO-8ul">
+                                <rect key="frame" x="133" y="468" width="185" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Knul-Medium" family="Knul" pointSize="17"/>
+                                <color key="textColor" red="0.5490196078431373" green="0.058823529411764705" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1988,7 +2007,7 @@
         <segue reference="zq6-zX-tkH"/>
         <segue reference="O8L-Va-hnh"/>
         <segue reference="nUk-qn-zKg"/>
-        <segue reference="OxS-8L-QxW"/>
+        <segue reference="rAr-8W-FbD"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.54901960780000003" green="0.058823529409999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
 </document>

@@ -19,6 +19,10 @@ class PlaySongViewController: UIViewController {
     
     @IBAction func playButton(sender: AnyObject) {
         
+        if (audioPlayer == nil) {
+            return
+        }
+        
         
         if (audioPlayer.playing) {
             audioPlayer.pause()
